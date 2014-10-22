@@ -1,0 +1,113 @@
+<?php
+
+// legal URL: /slider/gbanner6.jpg
+
+$statdata = array (
+  0 => 3,
+  1 => 0,
+  2 => 33206,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+  6 => 3,
+  7 => 180824,
+  8 => 1413984320,
+  9 => 1413984321,
+  10 => 1413984320,
+  11 => -1,
+  12 => -1,
+  'dev' => 3,
+  'ino' => 0,
+  'mode' => 33206,
+  'nlink' => 1,
+  'uid' => 0,
+  'gid' => 0,
+  'rdev' => 3,
+  'size' => 180824,
+  'atime' => 1413984320,
+  'mtime' => 1413984321,
+  'ctime' => 1413984320,
+  'blksize' => -1,
+  'blocks' => -1,
+);
+
+$data = array (
+  'mime_type' => 'image/jpeg',
+  'analysis' => 
+  array (
+    'GETID3_VERSION' => '1.9.3-20111213',
+    'filesize' => 180824,
+    'filename' => 'gbanner6.jpg',
+    'filepath' => 'D:/wamp/www/ululazmi/files/slider',
+    'filenamepath' => 'D:/wamp/www/ululazmi/files/slider/gbanner6.jpg',
+    'avdataoffset' => 0,
+    'avdataend' => 180824,
+    'fileformat' => 'jpg',
+    'video' => 
+    array (
+      'dataformat' => 'jpg',
+      'lossless' => false,
+      'bits_per_sample' => 24,
+      'pixel_aspect_ratio' => 1,
+      'resolution_x' => 1000,
+      'resolution_y' => 300,
+      'compression_ratio' => 0.20091555555555554,
+    ),
+    'encoding' => 'UTF-8',
+    'mime_type' => 'image/jpeg',
+  ),
+  'mime_type from file extension' => 'image/jpeg',
+  'img_info' => 
+  array (
+    'width' => 120,
+    'height' => 36,
+    'mime' => 'image/jpeg',
+    'ext' => 'jpeg',
+    'fileinfo' => 
+    array (
+      'memory_limit' => 268435456,
+      'mem_in_use' => 6409288,
+      'path' => 'D:\\wamp\\www\\ululazmi/files/.thumbs/.backend/1b/5d/6f46_gbanner690bf7b317bfd1937c80c274f-500x500.jpg',
+      'filesize' => 26012,
+      'imageinfo' => 
+      array (
+        0 => 500,
+        1 => 150,
+        2 => 2,
+        3 => 'width="500" height="150"',
+        'bits' => 8,
+        'channels' => 3,
+        'mime' => 'image/jpeg',
+      ),
+      'needed' => 377777.77777777781,
+      'usage_guestimate' => 528888.88888888888,
+      'usage_min_advised' => 6938176.888888889,
+      'will_fit' => true,
+    ),
+  ),
+  'memory used' => '8.3 MB',
+  'memory estimated' => '0.5 MB',
+  'memory suggested' => '6.9 MB',
+  'thumb250_direct' => '/ululazmi/files/.thumbs/.backend/1b/5d/6f46_gbanner690bf7b317bfd1937c80c274f-500x500.jpg',
+  'thumb250_info' => 
+  array (
+    0 => 500,
+    1 => 150,
+    2 => 2,
+    3 => 'width="500" height="150"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+  'thumb48_direct' => '/ululazmi/files/.thumbs/.backend/1b/5d/6f46_gbanner690bf7b317bfd1937c80c274f-120x120.jpg',
+  'thumb48_info' => 
+  array (
+    0 => 120,
+    1 => 36,
+    2 => 2,
+    3 => 'width="120" height="36"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+);

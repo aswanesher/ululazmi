@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <name>Event Calendar</name>
+    <version>0.9.9</version>
+    <license>Open Source MIT license</license>
+    <description>Module for manage events // Author : İskender TOTOĞLU | web : http://www.altivebir.com.tr</description>
+    <uri_segment>eventcalendar</uri_segment>
+    <has_admin>true</has_admin>
+    <access_group>editors</access_group>
+
+    <database script="database.xml"></database>
+
+</module>

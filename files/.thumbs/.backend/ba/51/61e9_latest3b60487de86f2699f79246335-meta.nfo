@@ -1,0 +1,82 @@
+<?php
+
+// legal URL: /pictures/pict/latest3.jpg
+
+$statdata = array (
+  0 => 3,
+  1 => 0,
+  2 => 33206,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+  6 => 3,
+  7 => 229726,
+  8 => 1413971104,
+  9 => 1413971104,
+  10 => 1413971104,
+  11 => -1,
+  12 => -1,
+  'dev' => 3,
+  'ino' => 0,
+  'mode' => 33206,
+  'nlink' => 1,
+  'uid' => 0,
+  'gid' => 0,
+  'rdev' => 3,
+  'size' => 229726,
+  'atime' => 1413971104,
+  'mtime' => 1413971104,
+  'ctime' => 1413971104,
+  'blksize' => -1,
+  'blocks' => -1,
+);
+
+$data = array (
+  'mime_type' => 'image/jpeg',
+  'analysis' => 
+  array (
+    'GETID3_VERSION' => '1.9.3-20111213',
+    'filesize' => 229726,
+    'filename' => 'latest3.jpg',
+    'filepath' => 'D:/wamp/www/ululazmi/files/pictures/pict',
+    'filenamepath' => 'D:/wamp/www/ululazmi/files/pictures/pict/latest3.jpg',
+    'avdataoffset' => 0,
+    'avdataend' => 229726,
+    'fileformat' => 'jpg',
+    'video' => 
+    array (
+      'dataformat' => 'jpg',
+      'lossless' => false,
+      'bits_per_sample' => 24,
+      'pixel_aspect_ratio' => 1,
+      'resolution_x' => 700,
+      'resolution_y' => 450,
+      'compression_ratio' => 0.24309629629629628,
+    ),
+    'encoding' => 'UTF-8',
+    'mime_type' => 'image/jpeg',
+  ),
+  'mime_type from file extension' => 'image/jpeg',
+  'thumb250_direct' => '/ululazmi/files/.thumbs/.backend/ba/51/61e9_latest3b60487de86f2699f79246335-500x500.jpg',
+  'thumb250_info' => 
+  array (
+    0 => 500,
+    1 => 321,
+    2 => 2,
+    3 => 'width="500" height="321"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+  'thumb48_direct' => '/ululazmi/files/.thumbs/.backend/ba/51/61e9_latest3b60487de86f2699f79246335-120x120.jpg',
+  'thumb48_info' => 
+  array (
+    0 => 120,
+    1 => 77,
+    2 => 2,
+    3 => 'width="120" height="77"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+);
