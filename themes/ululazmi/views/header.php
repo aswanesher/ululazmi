@@ -78,7 +78,6 @@
 	<div class="container">
     <nav class="clearfix">
 		<ul>
-                        <li class="logo"><img src="<ion:home_url />files/logo_yayasan.jpg" width="100" height="50"></li>
                         <li><a href="<ion:home_url />"><ion:site_title /></a></li>
 			<!--<li><a href="#">Home</a></li>
 			<li><a href="#">How-to</a></li>

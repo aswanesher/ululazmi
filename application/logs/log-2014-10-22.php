@@ -22,3 +22,4 @@ ERROR - 2014-10-22 15:25:52 --> Could not find the language key : "search_user_g
 ERROR - 2014-10-22 15:27:12 --> Could not find the language key : "search_user_guide"
 ERROR - 2014-10-22 15:27:25 --> Could not find the language key : "search_user_guide"
 ERROR - 2014-10-22 15:29:07 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-22 15:58:45 --> Could not find the language key : "search_user_guide"
