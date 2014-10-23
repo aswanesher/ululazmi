@@ -77,7 +77,7 @@
 	<!-- container -->
 	<div class="container">
     <nav class="clearfix">
-		<ul>
+		<ul class="clearfix">
                         <li><a href="<ion:home_url />"><ion:site_title /></a></li>
 			<!--<li><a href="#">Home</a></li>
 			<li><a href="#">How-to</a></li>
