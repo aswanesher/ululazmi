@@ -21,7 +21,7 @@
     <div class="row">
     <div id="footer-text" class="col-lg-12" align="center"><br />
                     Copyright &copy; 2014 - <ion:site_title /><br /><br />
-                    Powered By Berdikari Infomedia<br />
+                    Powered By OWN IT<br />
                     &nbsp;
                 </div>
     </div>
