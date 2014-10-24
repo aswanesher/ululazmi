@@ -202,7 +202,7 @@
 				 */
 				?>
 				<h5 class="title">
-					<legend>Artikel</legend>
+					<legend><a href="<ion:home_url />artikel">Artikel</a></legend>
 				</h5>
 
 
@@ -219,7 +219,7 @@
 				?>
 				<ion:page id="artikel">
 
-					<ion:articles limit="2">
+					<ion:articles limit="3">
 
 						<ion:article>
 
@@ -282,6 +282,7 @@
 						</ion:article>
 					</ion:articles>
 				</ion:page>
+                
 			</div>
             
             <div class="large-6 columns">
@@ -298,8 +299,8 @@
 				 */
 				?>
 				<h5 class="title">
-					Berita
-				</h5>
+					<a href="<ion:home_url />berita">Berita</a> 
+				</h5> 
 
 
 				<?php
@@ -315,7 +316,7 @@
 				?>
 				<ion:page id="berita">
 
-					<ion:articles limit="2">
+					<ion:articles limit="3">
 
 						<ion:article>
 

@@ -312,7 +312,7 @@ section#footer{
 }
 
 /* Basic Styles */
-nav {
+/*nav {
 	height: 40px;
 	width: 100%;
 	background: #455868;
@@ -324,7 +324,7 @@ nav {
 nav ul {
 	padding: 0;
 	margin: 0 auto;
-	width: 100%;
+	width: 90%;
 	height: 40px;
 }
 
@@ -355,6 +355,81 @@ nav a:hover, nav a:active {
 }
 nav a#pull {
 	display: none;
+}*/
+
+nav {
+    height: 50px;
+	width: 100%;
+	background: #455868;
+	font-size: 11px;
+    color: #fff !important;
+	font-family: 'PT Sans', Arial, sans-serif;
+	position: relative;
+	border-bottom: 2px solid #283744;
+    z-index: 1000;
+}
+
+nav a {
+	color: #fff;
+}
+
+nav ul {
+    padding: 0;
+	margin: 0 auto;
+	width: 90%;
+	height: 40px;
+  
+}
+ul li {
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  margin-right: 0px;
+  position: relative;
+  padding: 15px 20px;
+  background: #455868;
+  color: #fff !important;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #555;
+  color: #fff;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { background: #666; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  color: #fff;
 }
 
 /*Styles for screen 600px and lower*/

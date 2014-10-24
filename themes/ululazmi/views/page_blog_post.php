@@ -12,10 +12,11 @@
 		<?php endif; ?>
 
         <div class="post">
-
+        
 			<ion:page:article>
 
-				<h2><ion:title /></h2>
+				<h3><ion:title /></h3>
+                             
 
 				<ion:date format="complete" tag="p" class="date"/>
 
@@ -23,6 +24,7 @@
                 <p class="categories">
                 	<ion:lang key="categories" /> : <ion:categories:list link="true" separator=", " />
 				</p>
+                <hr />
 
 				<!-- Pictures slider -->
 					<div id="slider-container">
@@ -56,32 +58,61 @@
 	</div>
 
 	<div class="large-3 columns">
-
-		<div class="side-block">
+        
+        <div class="side-block">
 		
-			<h3><ion:lang key="title_categories" /></h3>
+			<h4>Kategori</h4>
 
-            <ul class="side-nav">
-                <ion:categories>
-                    <li>
-                        <a <ion:category:is_active> class="<ion:category:active_class />" </ion:category:is_active> href="<ion:category:url />"><ion:category:title /></a>
-                    </li>
-                </ion:categories>
-            </ul>
+			<ul class="side-nav">
+				<ion:page:categories>
+					<li>
+						<a <ion:category:is_active> class="<ion:category:active_class />" </ion:category:is_active> href="<ion:category:url />"><ion:category:title /> (<ion:category:nb_articles />)</a>
+					</li>
+				</ion:page:categories>
+			</ul>
 		
 		</div>
-		
+        
+		<!-- Tags -->
 		<div class="side-block">
-			
-			<h3><ion:lang key="title_archives" /></h3>
+			<h4>Donasi</h4>
 
-            <ul class="side-nav">
-                <ion:archives with_month="true">
-                    <li><a <ion:archive:is_active>class="active"</ion:archive:is_active> href="<ion:archive:url />"><ion:archive:period /></a></li>
-                </ion:archives>
-            </ul>
-			
+				<table width="100%">
+                        <tr>
+                        <td width="120"><strong>Bank BRI</strong></td>
+                        <td>:</td>
+                        <td>123123123123</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Bank BNI</strong></td>
+                        <td>:</td>
+                        <td>123123123123</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Bank Mandiri</strong></td>
+                        <td>:</td>
+                        <td>123123123123</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Mandiri Syariah</strong></td>
+                        <td>:</td>
+                        <td>123123123123</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Bank BJB</strong></td>
+                        <td>:</td>
+                        <td>123123123123</td>
+                        </tr>
+                        <tr><td colspan="3" align="center"><a href="#" class="btn btn-danger">Lihat panduan donasi >></a></td></tr>
+                        </table>
+
 		</div>
+        
+        <div class="side-block">
+        <h4>Sosial Media</h4>
+
+			<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FUlul-Azmi-Foundation%2F186029634776673&amp;width=230&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;height=200" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:230px; height:200px;" allowtransparency="true"></iframe>
+        </div>
 	</div>
 </div>
 

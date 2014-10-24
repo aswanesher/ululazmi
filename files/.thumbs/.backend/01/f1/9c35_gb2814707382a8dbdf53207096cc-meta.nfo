@@ -1,0 +1,82 @@
+<?php
+
+// legal URL: /gb28.jpg
+
+$statdata = array (
+  0 => 3,
+  1 => 0,
+  2 => 33206,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+  6 => 3,
+  7 => 26429,
+  8 => 1414061791,
+  9 => 1414061791,
+  10 => 1414061791,
+  11 => -1,
+  12 => -1,
+  'dev' => 3,
+  'ino' => 0,
+  'mode' => 33206,
+  'nlink' => 1,
+  'uid' => 0,
+  'gid' => 0,
+  'rdev' => 3,
+  'size' => 26429,
+  'atime' => 1414061791,
+  'mtime' => 1414061791,
+  'ctime' => 1414061791,
+  'blksize' => -1,
+  'blocks' => -1,
+);
+
+$data = array (
+  'mime_type' => 'image/jpeg',
+  'analysis' => 
+  array (
+    'GETID3_VERSION' => '1.9.3-20111213',
+    'filesize' => 26429,
+    'filename' => 'gb28.jpg',
+    'filepath' => 'D:/wamp/www/ululazmi/files',
+    'filenamepath' => 'D:/wamp/www/ululazmi/files/gb28.jpg',
+    'avdataoffset' => 0,
+    'avdataend' => 26429,
+    'fileformat' => 'jpg',
+    'video' => 
+    array (
+      'dataformat' => 'jpg',
+      'lossless' => false,
+      'bits_per_sample' => 24,
+      'pixel_aspect_ratio' => 1,
+      'resolution_x' => 266,
+      'resolution_y' => 200,
+      'compression_ratio' => 0.1655952380952381,
+    ),
+    'encoding' => 'UTF-8',
+    'mime_type' => 'image/jpeg',
+  ),
+  'mime_type from file extension' => 'image/jpeg',
+  'thumb250_direct' => '/ululazmi/files/.thumbs/.backend/01/f1/9c35_gb2814707382a8dbdf53207096cc-500x500.jpg',
+  'thumb250_info' => 
+  array (
+    0 => 266,
+    1 => 200,
+    2 => 2,
+    3 => 'width="266" height="200"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+  'thumb48_direct' => '/ululazmi/files/.thumbs/.backend/01/f1/9c35_gb2814707382a8dbdf53207096cc-120x120.jpg',
+  'thumb48_info' => 
+  array (
+    0 => 120,
+    1 => 90,
+    2 => 2,
+    3 => 'width="120" height="90"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+);

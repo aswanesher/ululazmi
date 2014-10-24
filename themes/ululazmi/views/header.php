@@ -76,9 +76,9 @@
 
 	<!-- container -->
 	<div class="container">
-    <nav class="clearfix">
-		<ul class="clearfix">
-                        <li><a href="<ion:home_url />"><ion:site_title /></a></li>
+    <nav>
+		<ul>
+                        
 			<!--<li><a href="#">Home</a></li>
 			<li><a href="#">How-to</a></li>
 			<li><a href="#">Icons</a></li>
@@ -88,11 +88,13 @@
             <!--
 							Navigation Menu
 						-->
-			             <ion:navigation level="0"  active_class="active"  >
+			             <!--<ion:navigation level="0"  active_class="active"  >
 							<li>
 								<a href="<ion:url />"><ion:title /></a>
 							</li>
-						</ion:navigation>
+						</ion:navigation>-->
+                        <ion:tree_navigation active_class="active" tag="ul" id="my_nav" class="nav" />
+                        
                         
 
 
@@ -109,6 +111,7 @@
 		</ul>
 		<a href="#" id="pull">Menu</a>
 	</nav>
+    
         <div class="contain-to-grid">
 
             <!--<div id="searchform">

@@ -5,6 +5,10 @@
 	<!--
 		Articles : No type
 	-->
+    <ion:page:breadcrumb home="true" />
+ 
+<ion:page:breadcrumb separator=""/>
+<hr />
 	<ion:page:articles type="">
 
 		<ion:article>
@@ -15,6 +19,11 @@
 
 						<!-- Article title -->
 						<ion:title tag="h3" />
+                        <p class="categories">
+                	<ion:lang key="categories" /> : <ion:categories:list link="true" separator=", " />
+				</p>
+                <ion:page:breadcrumb home="true" />
+                <hr />
 
 						<!-- Article content -->
 						<ion:content />

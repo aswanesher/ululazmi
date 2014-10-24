@@ -24,6 +24,7 @@
 		<!--
 			We get the articles which don't have any type set.
 		-->
+        
 		<ion:page:articles>
 			
 			<ion:article>
@@ -51,7 +52,7 @@
 
                     </ion:medias>
 
-                    <h2><a href="<ion:url />"><ion:title class="pagetitle" /></a></h2>
+                    <h4><a href="<ion:url />"><ion:title class="pagetitle" /></a></h4>
 
                     <p class="date"><ion:date format="complete" /></p>
 
@@ -86,7 +87,7 @@
 			Categories :
 			Only categories used by articles linked to the current page are displayed
 		-->
-		<div class="side-block">
+		<!--<div class="side-block">
 		
 			<h3><ion:lang key="title_categories" /></h3>
 
@@ -98,10 +99,10 @@
 				</ion:page:categories>
 			</ul>
 		
-		</div>
+		</div>-->
 
 		<!-- Archives -->
-		<div class="side-block">
+		<!--<div class="side-block">
 			
 			<h3><ion:lang key="title_archives" /></h3>
 			
@@ -111,10 +112,10 @@
 				</ion:archives>
 			</ul>
 			
-		</div>
+		</div>-->
 
 		<!-- Tags Cloud : Through CSS -->
-		<div class="side-block">
+		<!--<div class="side-block">
 
 			<style type="text/css">
 
@@ -157,11 +158,11 @@
 				</ion:page:tags>
 			</ul>
 
-		</div>
+		</div>-->
 
 
 		<!-- Tags -->
-		<div class="side-block">
+		<!--<div class="side-block">
 
 			<h3><ion:lang key="title_tags" /></h3>
 
@@ -171,7 +172,55 @@
 				</ion:page:tags>
 			</ul>
 
+		</div>-->
+
+        
+        <div class="side-block">
+           
+        </div>
+        
+        <!-- Tags -->
+		<div class="side-block">
+
+			<h4>Donasi</h4>
+
+				<table width="100%">
+                        <tr>
+                        <td width="120"><strong>Bank BRI</strong></td>
+                        <td>:</td>
+                        <td>123123123123</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Bank BNI</strong></td>
+                        <td>:</td>
+                        <td>123123123123</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Bank Mandiri</strong></td>
+                        <td>:</td>
+                        <td>123123123123</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Mandiri Syariah</strong></td>
+                        <td>:</td>
+                        <td>123123123123</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Bank BJB</strong></td>
+                        <td>:</td>
+                        <td>123123123123</td>
+                        </tr>
+                        <tr><td colspan="3" align="center"><a href="#" class="btn btn-danger">Lihat panduan donasi >></a></td></tr>
+                        </table>
+
 		</div>
+        
+        <div class="side-block">
+        <h4>Sosial Media</h4>
+
+			<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FUlul-Azmi-Foundation%2F186029634776673&amp;width=230&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;height=200" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:230px; height:200px;" allowtransparency="true"></iframe>
+        </div>
+        
 	</div>
 </div>
 
