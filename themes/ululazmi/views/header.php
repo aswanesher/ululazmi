@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="<ion:theme_url />assets/css/foundation.min.css">
 	<link rel="stylesheet" href="<ion:theme_url />assets/css/app.css">
     
+    
 
     <script type="text/javascript" src="<ion:theme_url />javascript/vendor/jquery.js"></script>
     <script type="text/javascript" src="<ion:theme_url />javascript/vendor/modernizr.js"></script>
@@ -93,9 +94,27 @@
 								<a href="<ion:url />"><ion:title /></a>
 							</li>
 						</ion:navigation>-->
+					    <!--<li class="header-title"><img src="<ion:home_url />files/logo_yayasan.jpg" width="100" height="50">
+                        &nbsp;&nbsp;<a href="<ion:home_url />"><ion:site_title /></a></li>-->
+                        
+                        <form method="post" action="<ion:base_url />search" id="searchbox" class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                            <input name="realm"  type="text" style="height: 35px;" class="form-control" placeholder="Cari">
+                            </div>
+                            <button type="submit" class="btn btn-default">Cari</button>
+                        </form>
+                        
+                        <li id="searchbox2" style="height: 120px;">
+                        <form method="post" action="<ion:base_url />search" id="searchbox2" class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                            <input name="realm" type="text" style="height: 35px;" class="form-control" placeholder="Cari">
+                            </div>
+                            <button type="submit" style="width: 100% !important;" class="btn btn-default">Cari</button>
+                        </form>
+                        </li>
+                        
                         <ion:tree_navigation active_class="active" tag="ul" id="my_nav" class="nav" />
-                        
-                        
+ 
 
 
 						<!--
@@ -108,6 +127,8 @@
 								</a>
 							</li>
 						</ion:languages>	-->
+                        
+                        
 		</ul>
 		<a href="#" id="pull">Menu</a>
 	</nav>

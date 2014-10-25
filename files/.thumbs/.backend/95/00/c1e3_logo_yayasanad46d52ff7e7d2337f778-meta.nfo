@@ -1,0 +1,113 @@
+<?php
+
+// legal URL: /logo_yayasan.jpg
+
+$statdata = array (
+  0 => 3,
+  1 => 0,
+  2 => 33206,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+  6 => 3,
+  7 => 33267,
+  8 => 1414201486,
+  9 => 1414201486,
+  10 => 1414201486,
+  11 => -1,
+  12 => -1,
+  'dev' => 3,
+  'ino' => 0,
+  'mode' => 33206,
+  'nlink' => 1,
+  'uid' => 0,
+  'gid' => 0,
+  'rdev' => 3,
+  'size' => 33267,
+  'atime' => 1414201486,
+  'mtime' => 1414201486,
+  'ctime' => 1414201486,
+  'blksize' => -1,
+  'blocks' => -1,
+);
+
+$data = array (
+  'mime_type' => 'image/jpeg',
+  'analysis' => 
+  array (
+    'GETID3_VERSION' => '1.9.3-20111213',
+    'filesize' => 33267,
+    'filename' => 'logo_yayasan.jpg',
+    'filepath' => 'D:/wamp/www/ululazmi/files',
+    'filenamepath' => 'D:/wamp/www/ululazmi/files/logo_yayasan.jpg',
+    'avdataoffset' => 0,
+    'avdataend' => 33267,
+    'fileformat' => 'jpg',
+    'video' => 
+    array (
+      'dataformat' => 'jpg',
+      'lossless' => false,
+      'bits_per_sample' => 24,
+      'pixel_aspect_ratio' => 1,
+      'resolution_x' => 508,
+      'resolution_y' => 223,
+      'compression_ratio' => 0.097886727163588858,
+    ),
+    'encoding' => 'UTF-8',
+    'mime_type' => 'image/jpeg',
+  ),
+  'mime_type from file extension' => 'image/jpeg',
+  'img_info' => 
+  array (
+    'width' => 120,
+    'height' => 53,
+    'mime' => 'image/jpeg',
+    'ext' => 'jpeg',
+    'fileinfo' => 
+    array (
+      'memory_limit' => 268435456,
+      'mem_in_use' => 6426864,
+      'path' => 'D:\\wamp\\www\\ululazmi/files/.thumbs/.backend/95/00/c1e3_logo_yayasanad46d52ff7e7d2337f778-500x500.jpg',
+      'filesize' => 15928,
+      'imageinfo' => 
+      array (
+        0 => 500,
+        1 => 219,
+        2 => 2,
+        3 => 'width="500" height="219"',
+        'bits' => 8,
+        'channels' => 3,
+        'mime' => 'image/jpeg',
+      ),
+      'needed' => 551555.55555555562,
+      'usage_guestimate' => 772177.77777777787,
+      'usage_min_advised' => 7199041.777777778,
+      'will_fit' => true,
+    ),
+  ),
+  'memory used' => '7.6 MB',
+  'memory estimated' => '0.8 MB',
+  'memory suggested' => '7.2 MB',
+  'thumb250_direct' => '/ululazmi/files/.thumbs/.backend/95/00/c1e3_logo_yayasanad46d52ff7e7d2337f778-500x500.jpg',
+  'thumb250_info' => 
+  array (
+    0 => 500,
+    1 => 219,
+    2 => 2,
+    3 => 'width="500" height="219"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+  'thumb48_direct' => '/ululazmi/files/.thumbs/.backend/95/00/c1e3_logo_yayasanad46d52ff7e7d2337f778-120x120.jpg',
+  'thumb48_info' => 
+  array (
+    0 => 120,
+    1 => 53,
+    2 => 2,
+    3 => 'width="120" height="53"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+);

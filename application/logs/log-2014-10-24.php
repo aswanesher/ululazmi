@@ -38,3 +38,36 @@ ERROR - 2014-10-24 02:17:11 --> Severity: Warning  --> constant() [<a href='func
 ERROR - 2014-10-24 02:17:11 --> Severity: Notice  --> Use of undefined constant CURLOPT_HTTPHEADER - assumed 'CURLOPT_HTTPHEADER' C:\wamp\www\ululazmi\application\controllers\admin\notification.php 58
 ERROR - 2014-10-24 02:17:11 --> Severity: Warning  --> constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant CURLOPT_CURLOPT_HTTPHEADER C:\wamp\www\ululazmi\system\libraries\Curl.php 263
 ERROR - 2014-10-24 02:17:30 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-24 08:32:38 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-24 08:33:46 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-24 08:33:54 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-24 08:33:58 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-24 08:34:04 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-24 08:34:15 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-24 11:18:40 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-24 11:18:40 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-24 11:18:57 --> Severity: Notice  --> Undefined index: name D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 17
+ERROR - 2014-10-24 11:18:57 --> Severity: Notice  --> Undefined index: comment D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 18
+ERROR - 2014-10-24 11:18:57 --> Severity: Notice  --> Undefined index: created D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 19
+ERROR - 2014-10-24 11:19:47 --> Severity: Notice  --> Undefined index: name D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 17
+ERROR - 2014-10-24 11:19:47 --> Severity: Notice  --> Undefined index: comment D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 18
+ERROR - 2014-10-24 11:19:47 --> Severity: Notice  --> Undefined index: created D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 19
+ERROR - 2014-10-24 11:23:10 --> Severity: Notice  --> Undefined index: name D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 17
+ERROR - 2014-10-24 11:23:10 --> Severity: Notice  --> Undefined index: comment D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 18
+ERROR - 2014-10-24 11:23:10 --> Severity: Notice  --> Undefined index: created D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 19
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: name D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 12
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: name D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 15
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: name D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 15
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: name D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 18
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: created D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 25
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: created D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 28
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: created D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 28
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: created D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 31
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: address D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 35
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: address D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 38
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: address D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 38
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: address D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 41
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: email D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 48
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: email D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 51
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: comment D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 76
+ERROR - 2014-10-24 11:23:12 --> Severity: Notice  --> Undefined variable: comment D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 77
