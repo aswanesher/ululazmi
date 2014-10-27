@@ -12,23 +12,20 @@
                     <h2>Built using Sequence.js</h2>
                     <p>The Responsive Slider with Advanced CSS3 Transitions</p>
                 </div>
-                <img alt="Blue Sky" src="<ion:theme_url />assets/plugins/horizontal-parallax/images/bg-clouds.png" class="sky" style="">
-                <img class="balloon" src="<ion:theme_url />assets/plugins/horizontal-parallax/images/balloon.png" alt="Balloon" />
+                <img class="model" style="top: 20px;" src="<ion:theme_url />assets/plugins/horizontal-parallax/images/gb44.png" alt="Aeroplane" />
             </li>
-            <!--<li class="animate-in">
-                <div class="info">
-                <ion:medias type="picture" size="1670" limit="1">
-                    <center>
-                        <img src="<ion:media:base_path />slider/gbanner6.jpg "  alt="<ion:media:alt />" />
-                    </center>
-                </ion:medias>
-                </div>
-            </li>-->
-            <li>
+            <li class="animate-in">
                 <div class="info">
                     <h2>Creative Control</h2>
                     <p>Create unique sliders using CSS3 transitions -- no jQuery knowledge required!</p>
                 </div>
+                <img class="model" style="top: 20px;" src="<ion:theme_url />assets/plugins/horizontal-parallax/images/gb33.png" alt="Aeroplane" />
+            </li>
+            <!--<li>
+                <div class="info">
+                    <h2>Creative Control</h2>
+                    <p>Create unique sliders using CSS3 transitions -- no jQuery knowledge required!</p>
+                <!--</div>
                 <img alt="Blue Sky" src="<ion:theme_url />assets/plugins/horizontal-parallax/images/bg-clouds.png" class="sky" style="">
                 <img class="aeroplane" src="<ion:theme_url />assets/plugins/horizontal-parallax/images/aeroplane.png" alt="Aeroplane" />
             </li>
@@ -39,7 +36,7 @@
                 </div>
                 <img alt="Blue Sky" src="<ion:theme_url />assets/plugins/horizontal-parallax/images/bg-clouds.png" class="sky" style="">
                 <img class="kite" src="<ion:theme_url />assets/plugins/horizontal-parallax/images/kite.png" alt="Kite" />
-            </li>
+            </li>-->
         </ul>
     </div>
 </div><!--/sequence-theme-->

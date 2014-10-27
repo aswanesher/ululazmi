@@ -24,7 +24,7 @@ Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise s
 /* End Inner Slider */
 
 #sequence-theme {
-    background: url(../images/bg-sky.png) repeat-x #65b7f1;
+    background: url(../images/104.jpg) repeat-x #65b7f1;
   color: #fff;
   font-family:'Open Sans', sans-serif;
   max-width: 2560px;
@@ -34,6 +34,20 @@ Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise s
   -webkit-backface-visibility: hidden;
   /* prevent graphical glitches in WebKit browsers when using transitions */
 }
+
+.bg-sky {
+  color: #fff;
+  font-family:'Open Sans', sans-serif;
+  max-width: 2560px;
+  position: absolute;
+  margin: 0 auto;
+  left: -50px;
+top: -10px;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  /* prevent graphical glitches in WebKit browsers when using transitions */
+}
+
 #sequence-theme .next,
 #sequence-theme .prev {
   color: white;
@@ -178,6 +192,60 @@ Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise s
   -o-transition-property: left top;
   transition-property: left top;
 }
+
+#sequence-theme .model {
+  left: -50%;
+  max-width: 40%;
+  top: 800px;
+  z-index: 6;
+  -webkit-transition-property: left top;
+  -moz-transition-property: left top;
+  -ms-transition-property: left top;
+  -o-transition-property: left top;
+  transition-property: left top;
+}
+
+#sequence-theme .animate-in .model {
+  left: 5%;
+  top: 100px;
+  -webkit-transition-duration: 4s;
+  -moz-transition-duration: 4s;
+  -ms-transition-duration: 4s;
+  -o-transition-duration: 4s;
+  transition-duration: 4s;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-property: left top -webkit-transform;
+  -moz-transition-property: left top -moz-transform;
+  -o-transition-property: left top -o-transform;
+  -ms-transition-property: left top -ms-transform;
+  transition-property: left top transform;
+  z-index: 4;
+}
+#sequence-theme .animate-out .model {
+  left: 100%;
+  top: -900px;
+  -webkit-transition-duration: 4s;
+  -moz-transition-duration: 4s;
+  -ms-transition-duration: 4s;
+  -o-transition-duration: 4s;
+  transition-duration: 4s;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-property: left top -webkit-transform;
+  -moz-transition-property: left top -moz-transform;
+  -o-transition-property: left top -o-transform;
+  -ms-transition-property: left top -ms-transform;
+  transition-property: left top transform;
+  z-index: 2;
+}
+
 #sequence-theme .animate-in .aeroplane {
   left: 10%;
   top: 100px;
