@@ -1,0 +1,101 @@
+/* main page layout */
+#w ul {
+    list-style:none;
+}
+#sort ul {
+    list-style:none;
+    list-style: none outside none;
+    margin: -10px 0 20px;
+    padding: 0;
+}
+
+/* sorting and filtering */
+.sort { display: block; font-family: 'Kite One', Arial, sans-serif; font-size: 1.4em; line-height: 0.9em; color: #444; }
+/*.sort ul { text-align:;}*/
+.sort li {padding: 0;}
+.sort li a {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 23px;
+    padding-bottom: 10px;
+    position: relative;
+    color: #313538;
+    border-bottom: 2px solid transparent;
+}
+.sort li a:hover { text-decoration: none; border-bottom: 2px solid #313538; text-decoration: none; }
+.sort li a.selected { color: #2EAFBB; border-bottom: 2px solid #2EAFBB;text-decoration: none; }
+
+/* portfolio items */
+.portfolio { 
+	width:100%;
+	display: block;
+	text-align:center; 
+	padding: 0px 0 0 0;
+	margin: 0 0 10px; 
+}
+
+.portfolio li {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.ie8 .portfolio li {
+    float: left;
+    margin-right: 26px;
+    margin-bottom: 26px;
+}
+.portfolio li:nth-child(4n+4){
+    margin-right:0;
+}
+@media (max-width: 640px){
+    .portfolio li {
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    .portfolio li:nth-child(2n+2){
+        margin-right:0;
+    }
+}
+@media (max-width: 360px){
+    .portfolio li {
+        margin-right: 0px;
+    }
+}
+/*
+@media (min-width: 767px) and (max-width: 1025px) {
+    .portfolio li {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 766px){
+    .portfolio li {
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .portfolio li:nth-child(2n+2){
+        margin-right:0;
+    }
+}
+@media (max-width: 361px){
+    .portfolio li {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+}*/
+
+.portfolio li a { 
+  display: block; 
+  -webkit-transition: all 0.35s linear; 
+  -moz-transition: all 0.35s linear; 
+  -o-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+
+/* clearfix */
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }

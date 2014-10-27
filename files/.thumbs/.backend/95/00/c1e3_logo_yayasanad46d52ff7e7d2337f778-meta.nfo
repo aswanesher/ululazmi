@@ -57,37 +57,6 @@ $data = array (
     'mime_type' => 'image/jpeg',
   ),
   'mime_type from file extension' => 'image/jpeg',
-  'img_info' => 
-  array (
-    'width' => 120,
-    'height' => 53,
-    'mime' => 'image/jpeg',
-    'ext' => 'jpeg',
-    'fileinfo' => 
-    array (
-      'memory_limit' => 268435456,
-      'mem_in_use' => 6426864,
-      'path' => 'D:\\wamp\\www\\ululazmi/files/.thumbs/.backend/95/00/c1e3_logo_yayasanad46d52ff7e7d2337f778-500x500.jpg',
-      'filesize' => 15928,
-      'imageinfo' => 
-      array (
-        0 => 500,
-        1 => 219,
-        2 => 2,
-        3 => 'width="500" height="219"',
-        'bits' => 8,
-        'channels' => 3,
-        'mime' => 'image/jpeg',
-      ),
-      'needed' => 551555.55555555562,
-      'usage_guestimate' => 772177.77777777787,
-      'usage_min_advised' => 7199041.777777778,
-      'will_fit' => true,
-    ),
-  ),
-  'memory used' => '7.6 MB',
-  'memory estimated' => '0.8 MB',
-  'memory suggested' => '7.2 MB',
   'thumb250_direct' => '/ululazmi/files/.thumbs/.backend/95/00/c1e3_logo_yayasanad46d52ff7e7d2337f778-500x500.jpg',
   'thumb250_info' => 
   array (

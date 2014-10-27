@@ -1,3 +1,5 @@
+<ion:partial view="header" />
+
 <!-- Search Module -->
 <ion:search>
 	  
@@ -21,3 +23,5 @@
 	  </ion:else>
 
 </ion:search>
+
+<ion:partial view="footer" />

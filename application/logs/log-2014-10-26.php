@@ -1,0 +1,39 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2014-10-26 03:06:44 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-26 04:50:16 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 04:50:16 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 04:54:39 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 04:54:40 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 04:55:18 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 04:55:18 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:38:09 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:38:10 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:38:15 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:38:28 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:38:29 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:45:38 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:45:38 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:45:49 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:45:49 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:46:51 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:46:53 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:47:10 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 05:47:13 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 15:05:19 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 15:05:19 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 15:05:28 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 15:05:28 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 15:06:27 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 15:06:28 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 15:33:18 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 15:33:18 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 16:04:42 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 16:04:43 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 16:04:51 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 16:04:53 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 16:41:39 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 16:41:46 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 16:41:47 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 16:42:00 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-26 16:42:02 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13

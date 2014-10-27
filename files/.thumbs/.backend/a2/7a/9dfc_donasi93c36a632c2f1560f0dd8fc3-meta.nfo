@@ -1,0 +1,82 @@
+<?php
+
+// legal URL: /donasi.jpg
+
+$statdata = array (
+  0 => 3,
+  1 => 0,
+  2 => 33206,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+  6 => 3,
+  7 => 71681,
+  8 => 1414295958,
+  9 => 1414295959,
+  10 => 1414295958,
+  11 => -1,
+  12 => -1,
+  'dev' => 3,
+  'ino' => 0,
+  'mode' => 33206,
+  'nlink' => 1,
+  'uid' => 0,
+  'gid' => 0,
+  'rdev' => 3,
+  'size' => 71681,
+  'atime' => 1414295958,
+  'mtime' => 1414295959,
+  'ctime' => 1414295958,
+  'blksize' => -1,
+  'blocks' => -1,
+);
+
+$data = array (
+  'mime_type' => 'image/jpeg',
+  'analysis' => 
+  array (
+    'GETID3_VERSION' => '1.9.3-20111213',
+    'filesize' => 71681,
+    'filename' => 'donasi.jpg',
+    'filepath' => 'D:/wamp/www/ululazmi/files',
+    'filenamepath' => 'D:/wamp/www/ululazmi/files/donasi.jpg',
+    'avdataoffset' => 0,
+    'avdataend' => 71681,
+    'fileformat' => 'jpg',
+    'video' => 
+    array (
+      'dataformat' => 'jpg',
+      'lossless' => false,
+      'bits_per_sample' => 24,
+      'pixel_aspect_ratio' => 1,
+      'resolution_x' => 175,
+      'resolution_y' => 488,
+      'compression_ratio' => 0.27978532396565181,
+    ),
+    'encoding' => 'UTF-8',
+    'mime_type' => 'image/jpeg',
+  ),
+  'mime_type from file extension' => 'image/jpeg',
+  'thumb250_direct' => '/ululazmi/files/.thumbs/.backend/a2/7a/9dfc_donasi93c36a632c2f1560f0dd8fc3-500x500.jpg',
+  'thumb250_info' => 
+  array (
+    0 => 175,
+    1 => 488,
+    2 => 2,
+    3 => 'width="175" height="488"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+  'thumb48_direct' => '/ululazmi/files/.thumbs/.backend/a2/7a/9dfc_donasi93c36a632c2f1560f0dd8fc3-120x120.jpg',
+  'thumb48_info' => 
+  array (
+    0 => 43,
+    1 => 120,
+    2 => 2,
+    3 => 'width="43" height="120"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+);

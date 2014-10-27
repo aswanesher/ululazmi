@@ -573,3 +573,48 @@ ERROR - 2014-10-25 08:06:55 --> Could not find the language key : "search_user_g
 ERROR - 2014-10-25 08:06:57 --> Could not find the language key : "search_user_guide"
 ERROR - 2014-10-25 08:06:58 --> Could not find the language key : "search_user_guide"
 ERROR - 2014-10-25 08:07:00 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:27:37 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:28:08 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:28:36 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:30:15 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:30:35 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:30:43 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:31:25 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:31:39 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:31:53 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:32:24 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:33:47 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:34:53 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:35:19 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:41:46 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:41:55 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:42:14 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:42:20 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:42:25 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:51:49 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:52:34 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:53:15 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:53:35 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:53:49 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:57:15 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:57:21 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 08:57:31 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 09:12:03 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:12:04 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:12:18 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:12:19 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:12:24 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 09:12:36 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:12:36 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:12:38 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 09:12:55 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 09:13:05 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:13:05 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:43:48 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:44:02 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:44:02 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:44:05 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 09:44:44 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:44:44 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-25 09:44:48 --> Could not find the language key : "search_user_guide"
+ERROR - 2014-10-25 09:44:53 --> Could not find the language key : "search_user_guide"
