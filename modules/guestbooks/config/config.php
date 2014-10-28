@@ -12,7 +12,7 @@ $config['module']['guestbooks'] = array
     // From 1.0.3, it is not mandatory to set 'uri'.
     'uri'           => 'guestbooks',
     'has_admin'     => TRUE,
-    'has_frontend'  => FALSE,
+    'has_frontend'  => TRUE,
 
  
     // Array of resources

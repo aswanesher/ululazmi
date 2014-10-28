@@ -1,4 +1,4 @@
-<?php // The "ion:comment_save" tag must be before "ion:comments" tag to have a correct display on new entry page refresh ?>
+<? // The "ion:comment_save" tag must be before "ion:comments" tag to have a correct display on new entry page refresh ?>
 <ion:comment_save /> 
 
 <h3><a href="<ion:url/>"><ion:title/></a></h3>
@@ -117,6 +117,6 @@
 		</ion:error_message>
 
 		
-		<ion:partial view="form_blog_comment" /> 
+		<ion:partial path="form_blog_comment" /> 
 	
 	</ion:comments_allowed>

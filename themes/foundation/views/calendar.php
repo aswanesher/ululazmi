@@ -1,9 +1,9 @@
 <ion:partial view="header" />
-<div class="span-24 prepend-1 ">
-    <div class="span-22 colborder">
+<div class="row">
+    <div class="large-8 small-12 columns"></div>
+    <div class="large-4 small-12 columns">
         <ion:partial view="eventcalendar_header" />
         <ion:partial view="eventcalendar" />
-    </div>
 </div>
 
 <!-- Partial : Footer -->

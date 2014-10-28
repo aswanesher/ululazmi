@@ -11,7 +11,7 @@
 
             <p>	
                 <label for="author">Your nickname</label><br />
-                <input id="author" name="author" type="text" tabindex="1" />
+                <input id="author" name="author" type="text" tabindex="1"/>
             </p>
 
             <p>
