@@ -67,17 +67,20 @@ class Comments_Tags extends TagManager {
      *
      * @return mixed
      */
+    /*
     public static function tag_comments_main(FTL_Binding $tag) {
         $view = self::$ci->load->view('index', '', TRUE);
 
         return $view;
     }
+     * 
+     */
 
     /*     * *********************************************************************
      * Display the form for new blog comment entry
      * Might not be used, use a partial view instead
      */
-
+/*
     public static function tag_comment_form(FTL_Binding $tag) {
 
         // the tag returns the content of this view :   
@@ -137,12 +140,12 @@ class Comments_Tags extends TagManager {
         foreach ($comments as $comment) {
             // Make comment available to child tags
             //$tag->locals->comment = $comment;
-            $tag->set('comment', $comment);
+            $tag->locals->comment = $comment;
 
             // Get "comments" tag content & execute child tags
             $output .= $tag->expand();
         }
-
+      
         // Return output, for display
         return $output;
 
@@ -388,7 +391,8 @@ class Comments_Tags extends TagManager {
      */
 
     public static function tag_comments_allowed(FTL_Binding $tag) {
-        return $tag->locals->article['comment_allow'];
+       $result = $tag->locals->article['comment_allow']=="1" ? $result = $tag->expand() : $result ="";
+       return $result;
         //$result = $tag->locals->article['comment_allow'] == "1" ? $result = $tag->expand() : $result = "Commentaires désactivés";
         //$result = $tag->expand();
         //return $result;

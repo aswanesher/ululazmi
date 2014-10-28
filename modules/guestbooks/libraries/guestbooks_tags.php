@@ -4,7 +4,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-class Guestbooks extends TagManager{
+class Guestbooks_Tags extends TagManager{
     
         public static $tag_definitions = array
         (
@@ -32,25 +32,27 @@ class Guestbooks extends TagManager{
         $str = $tag->expand();
         return $str;
     }
-    
+    /*
         public static function tag_guestbooks_main(FTL_Binding $tag) {
         $view = self::$ci->load->view('index', '', TRUE);
 
         return $view;
     }
+     * 
+     */
     
         public static function tag_guestbook_save(FTL_Binding $tag) {
         // get CodeIgniter instance
         $CI = & get_instance();
 
         // Comment was posted, saving it
-        if ($content = $CI->input->post('comment')) {
+        if ($comment = $CI->input->post('comment')) {
             // Loads the comments module model
             if (!isset($CI->guestbook_model))
                 $CI->load->model('guestbooks_guestbook_model', 'guestbook_model', true);
 
             // Save comment 
-            if ($CI->guestbook_model->insert())   
+            if ($CI->guestbook_model->insertbook())   
                 $CI->locals->showSuccessFlashMessage = true;
             else
                 $CI->locals->showErrorFlashMessage = true;
@@ -87,7 +89,7 @@ class Guestbooks extends TagManager{
             // Get "comments" tag content & execute child tags
             $output .= $tag->expand();
         }
-
+       
         // Return output, for display
         return $output;
 
@@ -183,10 +185,6 @@ class Guestbooks extends TagManager{
             return $tag_open . $tag->expand() . $tag_close;
         }
     }
-    
-        public static function tag_guestbooks_allowed(FTL_Binding $tag) {
-        return $tag->locals->guestbook['guestbook_allow'];
-        
-        }
+
 }
 ?>

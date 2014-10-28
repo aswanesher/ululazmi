@@ -50,7 +50,7 @@
                 header: {
                     left: 'title',
                     center: 'prev,next today',
-                    right: 'month,agendaWeek,agendaDay'
+                    right: 'month'
                 },
                 buttonText: {
                         prev:     '&nbsp;&#9668;&nbsp;',  // left triangle
@@ -58,9 +58,9 @@
                         prevYear: '<ion:translation term="year" />-1', // <<
                         nextYear: '<ion:translation term="year" />+1', // >>
                         today:    '<ion:translation term="today" />',
-                        month:    '<ion:translation term="month" />',
-                        week:     '<ion:translation term="week" />',
-                        day:      '<ion:translation term="day" />'
+                      month:    '<ion:translation term="month" />',
+                      week:     '<ion:translation term="week" />',
+                      day:      '<ion:translation term="day" />'
                     },
                 monthNames:[
                     '<ion:translation term="january" />',

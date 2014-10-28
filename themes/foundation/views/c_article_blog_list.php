@@ -9,5 +9,5 @@
 <!-- display comments count only when comments are activated on article -->
 <ion:comments_allowed>
 	<div class="comments"><a href="#"><ion:comments_count/> comments</a></div>
-       
 </ion:comments_allowed>
+

@@ -48,7 +48,9 @@ class Guestbooks_guestbook_model extends Base_model{
 		return $query->result_array();
 	}
         
-        	public function insert()
+        
+        
+        	public function insertbook()
 	{
         
 		// Retrieve data 
