@@ -64,7 +64,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 col-sm-6 contact">
-                Call us: 1-123-123-1234 | E-mail: info@example.com
+                Call us: 022-1231234 | E-mail: info@ululazmifoundation.org
             </div>
             <div class="col-md-7 col-sm-6 col-xs-12 submenu">
                 
