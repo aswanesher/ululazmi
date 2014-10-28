@@ -45,12 +45,17 @@
 								<ion:media:extension is="ogv"><video class="video" width="100%" height="200" controls><source src="<ion:media:src />" type="video/ogg" ></video></ion:media:extension>
 							</div>
 						</ion:media:type>
-
+                        
+                        <div class="blog-img">
 						<ion:media:type is="picture">
+                            <a href="<ion:url />">
 							<img src="<ion:media:src size='850,200' method='adaptive' />" />
+                            <div class="link-overlay icon-chevron-right"></div>
+                            </a>
 						</ion:media:type>
+                        </div>
 
-                </ion:medias><br /><br />
+                </ion:medias>
                 <ion:content paragraph="1" />
                 <p class="more"><a class="btn btn-m btn-m-aqua" href="<ion:url />">Selengkapnya..</a></p>
                 
@@ -91,47 +96,28 @@
 
             <section>
                 <!-- Categories -->
-                <h3>Categories</h3>
-                <ul class="list-unstyled menu">
+                <h3>Kategori</h3>
+                <ion:categories tag="ul" class="list-unstyled menu" active_class="my-active-class">
                     <li>
-                        <a href="#">Tech</a> <span>(25)</span>
+                        <a <ion:category:is_active> class="<ion:category:active_class />" </ion:category:is_active> href="<ion:category:url />">
+                        <ion:category:title /> : <ion:category:nb_articles /> articles
+                        </a>
                     </li>
-                    <li>
-                        <a href="#">Science</a> <span>(35)</span>
-                    </li>
-                    <li>
-                        <a href="#">Music</a> <span>(21)</span>
-                    </li>
-                    <li>
-                        <a href="#">Video</a> <span>(6)</span>
-                    </li>
-                    <li>
-                        <a href="#">Archeology</a> <span>(5)</span>
-                    </li>
-                </ul>
+                </ion:categories>
+                <!-- /Categories -->
                 <!-- /Categories -->
             </section>
 
             <section>
                 <!-- Recent Blog Entries -->
-                <h3>Recent Blog Entries</h3>
-                <ul class="list-unstyled menu">
-                    <li>
-                        <a href="#">Anim moon officia Boss</a>
-                    </li>
-                    <li>
-                        <a href="#">Boss is an incredibly beautiful</a>
-                    </li>
-                    <li>
-                        <a href="#">Moon officia Boss is an incredibly</a>
-                    </li>
-                    <li>
-                        <a href="#">Bootstrap Template</a>
-                    </li>
-                    <li>
-                        <a href="#">Bootstrap Anim moon officia Boss Template</a>
-                    </li>
-                </ul>
+                <h3>Artikel lainnya</h3>
+                <ion:page:articles>
+                    <ion:article>
+                    <ul class="list-unstyled menu">
+                        <li><a href="<ion:url />"><ion:title class="pagetitle" /></a></li>
+                    </ul>
+                    </ion:article>
+                </ion:page:articles>
                 <!-- /Recent Blog Entries -->
             </section>
 

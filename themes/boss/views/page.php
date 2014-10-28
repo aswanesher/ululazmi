@@ -75,7 +75,7 @@
                 <div class="media-list latest-posts">
                     <ion:medias type="picture" limit="1">
                     <center>
-                    <img src="<ion:media:base_path />../donasi.jpg"  alt="<ion:media:alt />" />
+                    <img src="files/donasi.jpg"  alt="<ion:media:alt />" />
                     </center>
                     </ion:medias>
                 </div>
