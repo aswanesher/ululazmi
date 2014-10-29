@@ -9,15 +9,15 @@
         <ul>
             <li class="animate-in">
                 <div class="info">
-                    <h2>Built using Sequence.js</h2>
-                    <p>The Responsive Slider with Advanced CSS3 Transitions</p>
+                    <h2>Sharing smile and happines</h2>
+                    <p>Indahnya berbagi</p>
                 </div>
                 <img class="model" style="top: 20px;" src="<ion:theme_url />assets/plugins/horizontal-parallax/images/gb44.png" alt="Aeroplane" />
             </li>
             <li class="animate-in">
                 <div class="info">
-                    <h2>Creative Control</h2>
-                    <p>Create unique sliders using CSS3 transitions -- no jQuery knowledge required!</p>
+                    <h2>Semangat dalam kebersamaan</h2>
+                    <p>True friends are always together in the spirit</p>
                 </div>
                 <img class="model" style="top: 20px;" src="<ion:theme_url />assets/plugins/horizontal-parallax/images/gb33.png" alt="Aeroplane" />
             </li>
