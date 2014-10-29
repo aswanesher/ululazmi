@@ -35,7 +35,7 @@
 		    </ion:search:results>
 	  </ion:else>
       
-</ion:search>
+      </ion:search>
 
 
 	</div>

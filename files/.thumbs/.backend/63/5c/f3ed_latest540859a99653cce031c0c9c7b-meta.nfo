@@ -1,0 +1,113 @@
+<?php
+
+// legal URL: /gallery/latest5.jpg
+
+$statdata = array (
+  0 => 3,
+  1 => 0,
+  2 => 33206,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+  6 => 3,
+  7 => 477614,
+  8 => 1414570611,
+  9 => 1414570611,
+  10 => 1414570611,
+  11 => -1,
+  12 => -1,
+  'dev' => 3,
+  'ino' => 0,
+  'mode' => 33206,
+  'nlink' => 1,
+  'uid' => 0,
+  'gid' => 0,
+  'rdev' => 3,
+  'size' => 477614,
+  'atime' => 1414570611,
+  'mtime' => 1414570611,
+  'ctime' => 1414570611,
+  'blksize' => -1,
+  'blocks' => -1,
+);
+
+$data = array (
+  'mime_type' => 'image/jpeg',
+  'analysis' => 
+  array (
+    'GETID3_VERSION' => '1.9.3-20111213',
+    'filesize' => 477614,
+    'filename' => 'latest5.jpg',
+    'filepath' => 'D:/wamp/www/ululazmi/files/gallery',
+    'filenamepath' => 'D:/wamp/www/ululazmi/files/gallery/latest5.jpg',
+    'avdataoffset' => 0,
+    'avdataend' => 477614,
+    'fileformat' => 'jpg',
+    'video' => 
+    array (
+      'dataformat' => 'jpg',
+      'lossless' => false,
+      'bits_per_sample' => 24,
+      'pixel_aspect_ratio' => 1,
+      'resolution_x' => 700,
+      'resolution_y' => 450,
+      'compression_ratio' => 0.5054116402116402,
+    ),
+    'encoding' => 'UTF-8',
+    'mime_type' => 'image/jpeg',
+  ),
+  'mime_type from file extension' => 'image/jpeg',
+  'img_info' => 
+  array (
+    'width' => 120,
+    'height' => 77,
+    'mime' => 'image/jpeg',
+    'ext' => 'jpeg',
+    'fileinfo' => 
+    array (
+      'memory_limit' => 268435456,
+      'mem_in_use' => 6426808,
+      'path' => 'D:\\wamp\\www\\ululazmi/files/.thumbs/.backend/63/5c/f3ed_latest540859a99653cce031c0c9c7b-500x500.jpg',
+      'filesize' => 96803,
+      'imageinfo' => 
+      array (
+        0 => 500,
+        1 => 321,
+        2 => 2,
+        3 => 'width="500" height="321"',
+        'bits' => 8,
+        'channels' => 3,
+        'mime' => 'image/jpeg',
+      ),
+      'needed' => 808444.4444444445,
+      'usage_guestimate' => 1131822.2222222222,
+      'usage_min_advised' => 7558630.222222222,
+      'will_fit' => true,
+    ),
+  ),
+  'memory used' => '8.9 MB',
+  'memory estimated' => '1.1 MB',
+  'memory suggested' => '7.6 MB',
+  'thumb250_direct' => '/ululazmi/files/.thumbs/.backend/63/5c/f3ed_latest540859a99653cce031c0c9c7b-500x500.jpg',
+  'thumb250_info' => 
+  array (
+    0 => 500,
+    1 => 321,
+    2 => 2,
+    3 => 'width="500" height="321"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+  'thumb48_direct' => '/ululazmi/files/.thumbs/.backend/63/5c/f3ed_latest540859a99653cce031c0c9c7b-120x120.jpg',
+  'thumb48_info' => 
+  array (
+    0 => 120,
+    1 => 77,
+    2 => 2,
+    3 => 'width="120" height="77"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+);

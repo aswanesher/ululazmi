@@ -14,6 +14,8 @@ $views = array (
     'page_my_account' => 'My Account',
     'page' => 'Page',
     'calendar' => 'eventcalendar',
+    'page_gallery'=> 'Gallery',
+    'search' => 'Search',
   ),
 );
 

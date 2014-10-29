@@ -133,36 +133,6 @@ $data = array (
     ),
   ),
   'mime_type from file extension' => 'image/png',
-  'img_info' => 
-  array (
-    'width' => 120,
-    'height' => 90,
-    'mime' => 'image/png',
-    'ext' => 'png',
-    'fileinfo' => 
-    array (
-      'memory_limit' => 268435456,
-      'mem_in_use' => 6435032,
-      'path' => 'D:\\wamp\\www\\ululazmi/files/.thumbs/.backend/ae/fa/c68d_gb33172d11a5354de6f47235e702-500x500.png',
-      'filesize' => 210464,
-      'imageinfo' => 
-      array (
-        0 => 500,
-        1 => 375,
-        2 => 3,
-        3 => 'width="500" height="375"',
-        'bits' => 8,
-        'mime' => 'image/png',
-      ),
-      'needed' => 944444.4444444445,
-      'usage_guestimate' => 2644444.4444444445,
-      'usage_min_advised' => 9079476.444444444,
-      'will_fit' => true,
-    ),
-  ),
-  'memory used' => '10.8 MB',
-  'memory estimated' => '2.6 MB',
-  'memory suggested' => '9.1 MB',
   'thumb250_direct' => '/ululazmi/files/.thumbs/.backend/ae/fa/c68d_gb33172d11a5354de6f47235e702-500x500.png',
   'thumb250_info' => 
   array (

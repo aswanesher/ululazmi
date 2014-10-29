@@ -252,9 +252,9 @@
 		<a href="#" id="pull">Menu</a>
 	</nav>
                 </div><!-- /navbar-collapse -->
-                <form method="post" action="<ion:base_url />search" role="form" class="form-search">
+                <form method="post" action="<ion:base_url />search" role="search" class="form-search">
                     <i class="icon icon-search"></i>
-                    <input type="text" placeholder="Cari.." class="form-control">
+                    <input name="realm" type="text" placeholder="Cari.." class="form-control">
                 </form>
             </div><!-- /navbar-inner -->
         </div><!-- /navbar -->                          
