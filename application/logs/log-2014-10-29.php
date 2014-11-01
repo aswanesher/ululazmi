@@ -45,3 +45,4 @@ ERROR - 2014-10-29 15:49:19 --> Severity: Notice  --> Undefined variable: commen
 ERROR - 2014-10-29 15:49:20 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
 ERROR - 2014-10-29 15:49:31 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
 ERROR - 2014-10-29 15:49:31 --> Severity: Notice  --> Undefined variable: comment_allow D:\wamp\www\ululazmi\system\core\Loader.php(679) : eval()'d code 13
+ERROR - 2014-10-29 16:02:22 --> Could not find the language key : "categories"

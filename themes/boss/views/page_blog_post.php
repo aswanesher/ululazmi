@@ -65,95 +65,122 @@
                 </ul>
             </div><!--/blog-->
             
-            </ion:page:article>
+            <h3 class="lined margin-bottom-20">Comments</h3>
             
-            <div class="user-info">
-                <div class="user-info-ava">
-                    <img alt="" src="assets/img/new/img13.jpg">
-                </div>
-                <div class="user-info-bio">
-                    <div class="user-info-name"> About the Author </div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis asdf asdnisl <a href="#">@jhon_doe_lorem</a>.
-                    </p>
-                </div>
-            </div>
-            <!-- Comments -->
-            <div class="comments">
-                <!-- Media -->
-                <div class="media">
-                    <h3 class="lined margin-bottom-20">Comments</h3>
-                    <a class="pull-left" href="#">
-                        <img class="media-object" src="assets/img/sliders/elastislide/2.jpg" alt=""/> </a>
-                    <div class="media-body">
-                        <h4 class="media-heading">ding <span>5 hours ago <a href="#">Reply</a></span></h4>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                        <hr/>
-                        <!-- Nested media object -->
-                        <div class="media">
-                            <a class="pull-left" href="#">
-                                <img class="media-object" src="assets/img/sliders/elastislide/5.jpg" alt=""/> </a>
-                            <div class="media-body">
-                                <h4 class="media-heading">dia hea
-                                    <span>17 hours ago <a href="#">Reply</a></span>
-                                </h4>
-                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            </div>
-                        </div><!--/media-->
-                        <hr/>
-                        <div class="media">
-                            <a class="pull-left" href="#">
-                                <img class="media-object" src="assets/img/sliders/elastislide/11.jpg" alt=""/> </a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Media  <span>2 days ago <a href="#">Reply</a></span>
-                                </h4>
-                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            </div>
-                            <hr/>
-                        </div><!--/media-->
-                    </div>
-                </div><!--/media-->
-                <div class="media">
-                    <a class="pull-left" href="#">
-                        <img class="media-object" src="assets/img/sliders/elastislide/9.jpg" alt=""/> </a>
-                    <div class="media-body">
-                        <h4 class="media-heading"> heading <span>July 5,2013 <a href="#">Reply</a></span></h4>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    </div>
-                </div><!--/media-->
-            </div><!-- /comments -->
+             <!-- display comments count only when comments are activated on article -->
+                <ion:comments:comments_allowed>
+                      <span class="postcommentsicon">
+                            <a href="#reply" title="<ion:lang key='module_comments_fr_title_comments' />">
+                            <ion:comments_count/>&nbsp;<ion:lang key="module_comments_fr_title_comments" /> | </a>
+                      </span>
+                </ion:comments:comments_allowed>
 
+        <ion:comments:comments_allowed>
+            <a class="more-link" href="#reply">Reply to this post</a>
+        </ion:comments:comments_allowed>
+
+        <!-- //*-------------------------------------------------------------------------------*//      -->
+
+        <? // The "ion:comment_save" tag must be before "ion:comments" tag to have a correct display on new entry page refresh ?>
+        <ion:comments:comment_save />
+
+        <?
+        /*         * ********
+         * Displaying article admin options for comments, only displayed when the user is logged in and belongs to admin group
+         * ******** */
+        ?>
+        <ion:comments:comments_admin>
+            <a name="admin"></a>
+            <h4>Admin</h4>
+
+            <!-- Display a validation flash message when admin params saving happens -->
+            <ion:message tag="div" class="success" id="message">
+                Action succeded
+                <!-- Some JQuery to autohide the flash message, not mandatory at all -->
+                <script language="javascript">
+                    $('#message').delay(2000).fadeOut('slow');
+                </script>
+            </ion:message>
+
+            <!-- Displaying admin panel for the current article -->
+            <form method="post" action="">
+
+                <input type="hidden" name="comments_article_update" value="1"/>
+                <input type="checkbox" name="comments_allow" value="1" <ion:comments_allowed>checked</ion:comments_allowed> />
+
+                <label for="comments_allow"><span>Allow comments</span></label></p>	
+
+                <button class="button" type="submit">Save</button>
+            </form>
+
+        </ion:comments:comments_admin>
+            
+        <!------------------------------------------------ 
+                Displaying comments, when the articles allows them 
+        -->
+
+        <ion:comments:comments_allowed>
+            <a name="comments"></a>
+
+            <div class="divider"></div>
+            
+            <ion:comments>
+            <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="<ion:gravatar default="identicon" />" alt=""/> </a>
+                    <div class="media-body">
+                        <h4 class="media-heading"><ion:author /><span><ion:date /> <!--<a href="#">Reply</a>--></span></h4>
+                        <p><ion:content /></p>
+                        <!-- Displaying admin panel for the current comment -->
+                        <ion:comments_admin>
+                            <form method="post" action="<ion:url/>#admin">
+                                <input class="form-control" type="hidden" name="id_article_comment" value="<ion:id/>"/>
+                                <input type="checkbox" name="comment_delete" value="1" />
+                                <label for="comments_allow"><span>Delete comment</span></label>	
+                                <button class="button" type="submit">Go</button>
+                            </form>
+                        </ion:comments_admin>
+                        <hr />
+                    </div>
+            </div><!--/media-->
+            </ion:comments>
+
+            <a name="reply"></a>
+
+            
             <!-- Leave a Comment -->
             <h3 class="lined margin-bottom-20">Leave a Comment</h3>
-            <div class="post-comment margin-bottom-40">
-                <form>
-                    <fieldset>
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="form-group">
-                                    <i class="icon-user"></i>
-                                    <input type="text" class="form-control" placeholder="Name"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="form-group">
-                                    <i class="icon-envelope-alt"></i>
-                                    <input type="text" class="form-control" placeholder="Email (required)" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <i class="icon-terminal"></i>
-                            <textarea rows="8" class="form-control" placeholder="Message"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <p><button type="submit" class="btn btn-m btn-m-aqua">Send Message</button></p>
-                        </div>
-                    </fieldset>
-                </form>
-            </div><!--/post-comment-->
+
+            <!-- Display a validation flash message when on post saving success -->
+            <ion:success_message tag="div" class="success" id="message">
+                Your message has been added
+
+                <!-- Some JQuery to autohide the flash message, not mandatory at all -->
+                <script language="javascript">
+                    $('#message').delay(3000).fadeOut('slow');
+                </script>
+            </ion:success_message>
+
+            <!-- Display an error flash message when something bad happens while saving (form incomplete) -->
+            <ion:error_message tag="div" class="error" id="message">
+                Please check if you filled all required fields
+
+                <!-- Some JQuery to autohide the flash message, not mandatory at all -->
+                <script language="javascript">
+                    $('#message').delay(3000).fadeOut('slow');
+                </script>
+            </ion:error_message>
+
+
+            <ion:partial view="form_blog_comment" /> 
+
+        </ion:comments:comments_allowed>
+            
+            </ion:page:article>
+            
+            
+            
+            
         </div><!--/col-md-9-->
 
         <!-- Right Sidebar -->

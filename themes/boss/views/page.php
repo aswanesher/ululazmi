@@ -72,13 +72,29 @@
             <!-- Posts -->
 			<section>
                 <h3>Donasi</h3>
-                <div class="media-list latest-posts">
-                    <ion:medias type="picture" limit="1">
-                    <center>
-                    <img src="files/donasi.jpg"  alt="<ion:media:alt />" />
-                    </center>
-                    </ion:medias>
-                </div>
+                <table class="table">
+                <tbody>
+                    <tr class="success">
+                        <td>BRI</td>
+                        <td>013.701.000.722.302</td>
+                    </tr>
+                    <tr class="warning">
+                        <td>BNI</td>
+                        <td>020.572.185.0</td>
+                    </tr>
+                    <tr class="success">
+                        <td>Mandiri</td>
+                        <td>703.40.3919.9</td>
+                    </tr>
+                    <tr class="warning">
+                        <td>BJB</td>
+                        <td>001.829.309.910.0</td>
+                    </tr>
+                    <tr class="info">
+                        <td colspan="2" align="center"><a href="#"><button style="width: 100%;" class="btn btn-m btn-m-default" type="button"><strong>Panduan Donasi</strong></button></a></td>
+                    </tr>
+                </tbody>
+            </table>
             </section>
             
             <section>

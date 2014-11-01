@@ -11,9 +11,9 @@ $statdata = array (
   5 => 0,
   6 => 3,
   7 => 169103,
-  8 => 1414570608,
-  9 => 1414570609,
-  10 => 1414570608,
+  8 => 1414675240,
+  9 => 1414675240,
+  10 => 1414675240,
   11 => -1,
   12 => -1,
   'dev' => 3,
@@ -24,9 +24,9 @@ $statdata = array (
   'gid' => 0,
   'rdev' => 3,
   'size' => 169103,
-  'atime' => 1414570608,
-  'mtime' => 1414570609,
-  'ctime' => 1414570608,
+  'atime' => 1414675240,
+  'mtime' => 1414675240,
+  'ctime' => 1414675240,
   'blksize' => -1,
   'blocks' => -1,
 );
@@ -57,37 +57,6 @@ $data = array (
     'mime_type' => 'image/jpeg',
   ),
   'mime_type from file extension' => 'image/jpeg',
-  'img_info' => 
-  array (
-    'width' => 120,
-    'height' => 77,
-    'mime' => 'image/jpeg',
-    'ext' => 'jpeg',
-    'fileinfo' => 
-    array (
-      'memory_limit' => 268435456,
-      'mem_in_use' => 6426808,
-      'path' => 'D:\\wamp\\www\\ululazmi/files/.thumbs/.backend/b5/90/6649_latest13931c30e93070f832580cbcc-500x500.jpg',
-      'filesize' => 33267,
-      'imageinfo' => 
-      array (
-        0 => 500,
-        1 => 321,
-        2 => 2,
-        3 => 'width="500" height="321"',
-        'bits' => 8,
-        'channels' => 3,
-        'mime' => 'image/jpeg',
-      ),
-      'needed' => 808444.4444444445,
-      'usage_guestimate' => 1131822.2222222222,
-      'usage_min_advised' => 7558630.222222222,
-      'will_fit' => true,
-    ),
-  ),
-  'memory used' => '8.9 MB',
-  'memory estimated' => '1.1 MB',
-  'memory suggested' => '7.6 MB',
   'thumb250_direct' => '/ululazmi/files/.thumbs/.backend/b5/90/6649_latest13931c30e93070f832580cbcc-500x500.jpg',
   'thumb250_info' => 
   array (
