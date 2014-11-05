@@ -187,9 +187,9 @@
         <div class="col-md-3 sidebar">
             <section>
                 <!-- Search Bar -->
-                <form role="form" class="form-search">
+                <form method="post" action="<ion:base_url />search" role="search" class="form-search">
                     <i class="icon icon-search"></i>
-                    <input type="text" placeholder="Search" class="form-control">
+                    <input name="realm" type="text" placeholder="Cari.." class="form-control">
                 </form>
                 <!-- /Search Bar -->
             </section>
@@ -220,25 +220,9 @@
                 <!-- /Recent Blog Entries -->
             </section>
 
-            <section>
-                <!-- Photo Stream -->
-                <h3>Photo Stream</h3>
-                <ul class="list-unstyled blog-ads row">
-                    <li class="col-md-3 col-sm-2 col-xs-2"><a href="#"><img src="assets/img/sliders/elastislide/5.jpg" alt="" class="hover-effect" /></a></li>
-                    <li class="col-md-3 col-sm-2 col-xs-2"><a href="#"><img src="assets/img/sliders/elastislide/6.jpg" alt="" class="hover-effect" /></a></li>
-                    <li class="col-md-3 col-sm-2 col-xs-2"><a href="#"><img src="assets/img/sliders/elastislide/8.jpg" alt="" class="hover-effect" /></a></li>
-                    <li class="col-md-3 col-sm-2 col-xs-2"><a href="#"><img src="assets/img/sliders/elastislide/10.jpg" alt="" class="hover-effect" /></a></li>
-                    <li class="col-md-3 col-sm-2 col-xs-2"><a href="#"><img src="assets/img/sliders/elastislide/11.jpg" alt="" class="hover-effect" /></a></li>
-                    <li class="col-md-3 col-sm-2 col-xs-2"><a href="#"><img src="assets/img/sliders/elastislide/1.jpg" alt="" class="hover-effect" /></a></li>
-                    <li class="col-md-3 col-sm-2 col-xs-2"><a href="#"><img src="assets/img/sliders/elastislide/2.jpg" alt="" class="hover-effect" /></a></li>
-                    <li class="col-md-3 col-sm-2 col-xs-2"><a href="#"><img src="assets/img/sliders/elastislide/7.jpg" alt="" class="hover-effect" /></a></li>
-                </ul>
-                <!-- /Photo Stream -->
-            </section>
-
-            <section>
+            <!--<section>
                 <!-- Blog Tags -->
-                <h3>Blog Tags</h3>
+                <!--<h3>Blog Tags</h3>
                 <ul class="list-unstyled list-inline blog-tags">
                     <li><a href="#"><i class="icon-tags"></i> Business</a></li>
                     <li><a href="#"><i class="icon-tags"></i> Music</a></li>
@@ -255,17 +239,14 @@
                     <li><a href="#"><i class="icon-tags"></i> Apple</a></li>
                     <li><a href="#"><i class="icon-tags"></i> Canada</a></li>
                 </ul>
-            </section>
+            </section>-->
 
             <section>
                 <!-- Blog Latest Tweets -->
                 <div class="blog-twitter">
-                    <h3>Latest Tweets</h3>
-                    <p><a href="">@some</a> At vero eos et accusamus et iusto odio dignissimos. <a href="#">http://t.co/sBav7dm</a> <span>5 hours ago</span></p>
-                    <p><a href="">@boss</a> At vero eos et accusamus et iusto odio dignissimos. <a href="#">http://t.co/f58Ddg4</a> <span>8 hours ago</span></p>
-                    <p><a href="">@veroeos</a> At vero eos et accusamus et iusto odio dignissimos. <a href="#">http://t.co/adVs9f</a> <span>17 hours ago</span></p>
-                    <p><a href="">@accusamus </a> At vero eos et accusamus et iusto odio dignissimos. <a href="#">http://t.co/wf5Fs6</a> <span>23 hours ago</span></p>
-                    <p><a href="">@veroeoset</a> At vero eos et accusamus et iusto odio dignissimos. <a href="#">http://t.co/7EsffP</a> <span>1 day ago</span></p>
+                    <h3>Media sosial</h3>
+                    <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FUlul-Azmi-Foundation%2F186029634776673&amp;width=260&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;height=280" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:260px; height:280px;" allowtransparency="true"></iframe>
+                    <iframe width="260" height="215" src="//www.youtube.com/embed/w3uFb9Lgr_o" frameborder="0" allowfullscreen></iframe>
                 </div>
             </section>
         </div><!--/col-md-3-->

@@ -50,13 +50,43 @@
             <hr class="dashed" style="margin-top: 0px;">
             <h1 class="centered">Kirimi kami pesan</h1>
             <p class="p-20 centered">Kirimkan pesan pada kami sebagai bentuk perhatian anda kepada kami. </p>
-            <form>
+            
+            <!--
+			Success message
+			Displayed if the form was successfuly validated
+		-->
+		<ion:form:contact:validation:success is="true">
+			<div class="alert-box success">
+				<ion:lang key="form_alert_success_title" tag="h4" />
+				<ion:lang key="form_alert_success_message" tag="p" />
+				<a href="" class="close">&times;</a>
+			</div>
+		</ion:form:contact:validation:success>
+
+		<!--
+			Error message
+			Displayed if the form doesn't pass the validation
+			the 'form_message_error' key is located in : themes/your_theme/language/xx/tags_lang.php
+		-->
+		<ion:form:contact:validation:error is="true" >
+			<div class="alert-box alert">
+				<ion:lang key="form_alert_error_title" tag="h4" />
+				<ion:lang key="form_alert_error_message" tag="p" />
+				<a href="" class="close">&times;</a>
+			</div>
+		</ion:form:contact:validation:error>
+            
+            <form method="post" action="">
+            
+            <!-- The form name must be set so the tags identify it -->
+			<input type="hidden" name="form" value="contact" />
+            
                 <fieldset>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <i class="icon-user"></i>
-                                <input type="text" class="form-control" placeholder="Name"/>
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Name"/>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">

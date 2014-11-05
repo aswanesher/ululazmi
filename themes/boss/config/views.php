@@ -9,7 +9,7 @@ $views = array (
   ),
   'page' => 
   array (
-    'page_blog' => 'Blog - list',
+    /*'page_blog' => 'Blog - list',
     'page_blog_post' => 'Blog Post',
     'calendar' => 'Calendar',
     'page_contact' => 'Contact',
@@ -17,6 +17,16 @@ $views = array (
     'page_my_account' => 'My Account',
     'page' => 'Page',
     'Search' => 'Search',
+    'page_guestbook' => 'page_guestbook',*/
+    
+    'page_blog' => 'Blog',
+    'page_blog_post' => 'Blog Post',
+    'page_contact' => 'Contact',
+    'page_home' => 'Home',
+    'page_my_account' => 'My Account',
+    'page' => 'Page',
+    'calendar' => 'Calendar',
+    'page_gallery'=> 'Gallery',
     'page_guestbook' => 'page_guestbook',
   ),
 );

@@ -1,18 +1,12 @@
 <ion:partial view="header" />
 
-<ion:page:articles type="">
-
-		<ion:article>
-
 <!--=== Breadcrumbs ===-->
 <div class="breadcrumbs">
 	<div class="container">
-        <h1 class="color-green pull-left"><ion:title /></h1>
+        <h1 class="color-green pull-left">Buku Tamu</h1>
         <ul class="pull-right breadcrumb">
             <!--<li><a href="index.html">Home</a> </li>
-            <li><a href="">Pages</a> </li>
-            <li class="active">Right Column Page</li>
-            -->
+            <li class="active">Blog</li>-->
             <li>
             <ion:page:breadcrumb home="true" />
             </li>
@@ -21,45 +15,69 @@
 </div><!--/breadcrumbs-->
 <!--=== End Breadcrumbs ===-->
 
-<!--=== Content Part ===-->
-<div class="container">		
-	<div class="row">
-        <div class="col-md-9 pagebar">
-            <ion:medias type="picture" limit="1">
-                <img src="<ion:media:src size='845, 200' method='adaptive'/>" />
-            </ion:medias><br /><br />
-            
-            <!-- Article content -->
-            <ion:content />
-            
-            
-            
-            <div class="margin-bottom-40">
-                <ul class="list-inline socials-content">
-                    <li>
-                        <a class="rss" href="#"><i class="icon-rss"></i></a>
-                    </li>
-                    <li>
-                        <a class="fb" href="#"><i class="icon-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a class="tw" href="#"><i class="icon-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a class="gl" href="#"><i class="icon-google-plus"></i></a>
-                    </li>
-                    <li>
-                        <a class="pt" href="#"><i class="icon-pinterest"></i></a>
-                    </li>
-                    <li>
-                        <a class="lin" href="#"><i class="icon-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div><!--/col-md-9-->
-        
+<div class="container">	
+<div class="row">
 
-        <div class="col-md-3 sidebar">
+<div class="col-md-9 pagebar">
+<ion:guestbooks:guestbook_save/> 
+<a name="guestbook"></a>
+
+<!--<ol class="commentlist">
+<ion:guestbooks:guestbooks>
+    <li class="comment">
+    <div class="avatarimage"><img alt="Avatar" src="<ion:gravatar default="identicon"/>" height="50" width="50" /></div>
+    <div class="comment-body">
+    <div class="comment-author">
+	<a href="#"><ion:name/></a> <span class="comment-date"><ion:created/></span>
+    </div>
+    <ion:comment/>
+    </div>
+    </li>
+</ion:guestbooks:guestbooks>
+</ol>-->
+
+<ion:guestbooks:guestbooks>
+<div class="media">
+        <a class="pull-left" href="#">
+        <img class="media-object" height="50" width="50" src="<ion:gravatar default="identicon"/>" alt=""/>
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading"><ion:name/></h4><span><ion:created/> <!--<a href="#">Reply</a>--></span>
+            <p><ion:comment/></p>
+            <!-- Displaying admin panel for the current comment -->
+            <hr />
+        </div>
+</div><!--/media-->
+</ion:guestbooks:guestbooks>
+
+
+<!-- Leave a Comment -->
+            <h3 class="lined margin-bottom-20">Kirim Pesan</h3>
+
+		<!-- Display a validation flash message when on post saving success -->
+		<ion:guestbooks:success_message tag="div" class="success" id="message">
+				Your message has been added
+				
+				<!-- Some JQuery to autohide the flash message, not mandatory at all -->
+				<script language="javascript">
+					$('#message').delay(2000).fadeOut('slow');					
+				</script>
+		</ion:guestbooks:success_message>
+		
+		<!-- Display an error flash message when something bad happens while saving (form incomplete) -->
+		<ion:guestbooks:error_message tag="div" class="error" id="message">
+				Please check if you filled all required fields
+				
+				<!-- Some JQuery to autohide the flash message, not mandatory at all -->
+				<script language="javascript">
+					$('#message').delay(5000).fadeOut('slow');					
+				</script>
+		</ion:guestbooks:error_message>
+<ion:partial view="form_guestbook"/>
+<!-- Partial : Footer -->
+</div>
+
+<div class="col-md-3 sidebar">
             <section>
                 <!-- Search Bar -->
                 <form method="post" action="<ion:base_url />search" role="search" class="form-search">
@@ -105,14 +123,7 @@
                 <!-- /Photo Stream -->
             </section>
         </div><!--/col-md-3-->
-    </div><!--/row-->
 
-    
-    <!-- //End Our Clients -->
-</div><!--/container-->		
-</ion:article>
-
-	</ion:page:articles>
-<!--=== End Content Part ===-->
-
+</div>
+</div>
 <ion:partial view="footer" />
