@@ -19,9 +19,9 @@
         <div class="thumbnails">
             <ion:medias type="picture" size="250, 250" >
             <div class="col-md-3 col-sm-6">
-                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Project #1" href="<ion:base_url />files/gallery/">
+                <a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="Project #1" href="<ion:media:src />">
                     <div class="overlay-zoom">	
-                        <img src="<ion:base_url />files/gallery/">
+                        <img src="<ion:media:src />">
                         <div class="zoom-icon"></div>					
                     </div>												
                 </a>

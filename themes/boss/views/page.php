@@ -56,7 +56,120 @@
                     </li>
                 </ul>
             </div>
+            
+            <h3 class="lined margin-bottom-20">Comments</h3>
+            
+             <!-- display comments count only when comments are activated on article -->
+                <ion:comments:comments_allowed>
+                      <span class="postcommentsicon">
+                            <a href="#reply" title="<ion:lang key='module_comments_fr_title_comments' />">
+                            <ion:comments_count/>&nbsp;<ion:lang key="module_comments_fr_title_comments" /> | </a>
+                      </span>
+                </ion:comments:comments_allowed>
+
+        <ion:comments:comments_allowed>
+            <a class="more-link" href="#reply">Reply to this post</a>
+        </ion:comments:comments_allowed>
+
+        <!-- //*-------------------------------------------------------------------------------*//      -->
+
+        <? // The "ion:comment_save" tag must be before "ion:comments" tag to have a correct display on new entry page refresh ?>
+        <ion:comments:comment_save />
+
+        <?
+        /*         * ********
+         * Displaying article admin options for comments, only displayed when the user is logged in and belongs to admin group
+         * ******** */
+        ?>
+        <ion:comments:comments_admin>
+            <a name="admin"></a>
+            <h4>Admin</h4>
+
+            <!-- Display a validation flash message when admin params saving happens -->
+            <ion:message tag="div" class="success" id="message">
+                Action succeded
+                <!-- Some JQuery to autohide the flash message, not mandatory at all -->
+                <script language="javascript">
+                    $('#message').delay(2000).fadeOut('slow');
+                </script>
+            </ion:message>
+
+            <!-- Displaying admin panel for the current article -->
+            <form method="post" action="">
+
+                <input type="hidden" name="comments_article_update" value="1"/>
+                <input type="checkbox" name="comments_allow" value="1" <ion:comments_allowed>checked</ion:comments_allowed> />
+
+                <label for="comments_allow"><span>Allow comments</span></label></p>	
+
+                <button class="button" type="submit">Save</button>
+            </form>
+
+        </ion:comments:comments_admin>
+            
+        <!------------------------------------------------ 
+                Displaying comments, when the articles allows them 
+        -->
+
+        <ion:comments:comments_allowed>
+            <a name="comments"></a>
+
+            <div class="divider"></div>
+            
+            <ion:comments>
+            <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="<ion:gravatar default="identicon" />" alt=""/> </a>
+                    <div class="media-body">
+                        <h4 class="media-heading"><ion:author /><span><ion:date /> <!--<a href="#">Reply</a>--></span></h4>
+                        <p><ion:content /></p>
+                        <!-- Displaying admin panel for the current comment -->
+                        <ion:comments_admin>
+                            <form method="post" action="<ion:url/>#admin">
+                                <input class="form-control" type="hidden" name="id_article_comment" value="<ion:id/>"/>
+                                <input type="checkbox" name="comment_delete" value="1" />
+                                <label for="comments_allow"><span>Delete comment</span></label>	
+                                <button class="button" type="submit">Go</button>
+                            </form>
+                        </ion:comments_admin>
+                        <hr />
+                    </div>
+            </div><!--/media-->
+            </ion:comments>
+
+            <a name="reply"></a>
+
+            
+            <!-- Leave a Comment -->
+            <h3 class="lined margin-bottom-20">Leave a Comment</h3>
+
+            <!-- Display a validation flash message when on post saving success -->
+            <ion:success_message tag="div" class="success" id="message">
+                Your message has been added
+
+                <!-- Some JQuery to autohide the flash message, not mandatory at all -->
+                <script language="javascript">
+                    $('#message').delay(3000).fadeOut('slow');
+                </script>
+            </ion:success_message>
+
+            <!-- Display an error flash message when something bad happens while saving (form incomplete) -->
+            <ion:error_message tag="div" class="error" id="message">
+                Please check if you filled all required fields
+
+                <!-- Some JQuery to autohide the flash message, not mandatory at all -->
+                <script language="javascript">
+                    $('#message').delay(3000).fadeOut('slow');
+                </script>
+            </ion:error_message>
+
+
+            <ion:partial view="form_blog_comment" /> 
+
+        </ion:comments:comments_allowed>
+            
         </div><!--/col-md-9-->
+        
         
 
         <div class="col-md-3 sidebar">
@@ -105,6 +218,8 @@
                 <!-- /Photo Stream -->
             </section>
         </div><!--/col-md-3-->
+        
+        
     </div><!--/row-->
 
     

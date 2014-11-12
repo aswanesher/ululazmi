@@ -99,9 +99,7 @@
                 </ion:page:articles>
                 </div><!--/welcome-block-->
             </div><!--/row-->
-        
             
-
             <!-- Tabs -->
             <div><h3 class="lined">Seputar Ulul Azmi</h3></div>
             <ul class="nav nav-tabs tabs">
@@ -110,6 +108,7 @@
                 <li><a href="#infoyayasan" data-toggle="tab">Info Yayasan</a></li>
                 <li><a href="#agenda" data-toggle="tab">Agenda</a></li>
             </ul><!--/tabs-->
+            
             
             <div class="tab-content margin-bottom-40">
                 <div class="tab-pane active" id="artikel">
@@ -161,10 +160,11 @@
 					</ion:articles>
 				</ion:page>
                 </div>
-                <div class="tab-pane" id="berita">
-                    <!--<h4>Heading Sample 2</h4>
-                    <p><img class="pull-left lft-img-margin img-width-200" src="<ion:theme_url />assets/img/work/work3.jpg" alt="" /> Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum ullamcorper. Donec eget orci metus, <strong>ac adipiscing nunc.</strong> Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac interdum ullamcorper. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac <strong>interdum ullamcorper.</strong></p>-->
-                    <ion:page id="berita">
+                <div class="tab-pane active" id="berita">
+                    <!--<img class="pull-left lft-img-margin img-width-200" src="<ion:theme_url />assets/img/work/work1.jpg" alt="" />
+                    <h4>Heading Sample 1</h4>
+                    <p>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac felis consectetur id.<strong> Donec eget orci metus.</strong></p>--> 
+				<ion:page id="berita">
 
 					<ion:articles limit="5">
 
@@ -176,9 +176,9 @@
 										<div class="flag"><span><ion:text:value /></span></div>
 									</ion:article:static:flag:items>
 
-									<a href="<ion:url />"><h5><ion:title /></h5></a>
+									
 
-									<div class="hide-for-small medium-4 large-4 columns">
+									<div class="pull-left lft-img-margin img-width-120">
 
 										<ion:medias type="picture,video" limit="1">
 
@@ -193,25 +193,27 @@
 											</ion:media:type>
 
 											<ion:media:type is="picture">
-												<img class="pull-left lft-img-margin img-width-200" src="<ion:media:src size='300,200' method='adaptive' />" />
+												<img  src="<ion:media:src size='120,50' method='adaptive' />" />
 											</ion:media:type>
 
 										</ion:medias>
 
 
 									</div>
-
+                                    
+                                    <a href="<ion:url />"><h5><ion:title /></h5></a>
 									<div class="medium-8 large-8 columns">
 										<ion:content paragraph="1" />
 									</div>
-
-								
 						</ion:article>
 					</ion:articles>
 				</ion:page>
                 </div>
-                <div class="tab-pane" id="infoyayasan">
-                    <ion:page id="info-yayasan">
+                <div class="tab-pane active" id="infoyayasan">
+                    <!--<img class="pull-left lft-img-margin img-width-200" src="<ion:theme_url />assets/img/work/work1.jpg" alt="" />
+                    <h4>Heading Sample 1</h4>
+                    <p>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac felis consectetur id.<strong> Donec eget orci metus.</strong></p>--> 
+				<ion:page id="info-yayasan">
 
 					<ion:articles limit="5">
 
@@ -223,9 +225,9 @@
 										<div class="flag"><span><ion:text:value /></span></div>
 									</ion:article:static:flag:items>
 
-									<a href="<ion:url />"><h5><ion:title /></h5></a>
+									
 
-									<div class="hide-for-small medium-4 large-4 columns">
+									<div class="pull-left lft-img-margin img-width-120">
 
 										<ion:medias type="picture,video" limit="1">
 
@@ -240,25 +242,27 @@
 											</ion:media:type>
 
 											<ion:media:type is="picture">
-												<img class="pull-left lft-img-margin img-width-200" src="<ion:media:src size='300,200' method='adaptive' />" />
+												<img  src="<ion:media:src size='120,50' method='adaptive' />" />
 											</ion:media:type>
 
 										</ion:medias>
 
 
 									</div>
-
+                                    
+                                    <a href="<ion:url />"><h5><ion:title /></h5></a>
 									<div class="medium-8 large-8 columns">
 										<ion:content paragraph="1" />
 									</div>
-
-								
 						</ion:article>
 					</ion:articles>
 				</ion:page>
                 </div>
-                <div class="tab-pane" id="agenda">
-                    <ion:page id="agenda">
+                <div class="tab-pane active" id="agenda">
+                    <!--<img class="pull-left lft-img-margin img-width-200" src="<ion:theme_url />assets/img/work/work1.jpg" alt="" />
+                    <h4>Heading Sample 1</h4>
+                    <p>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac adipiscing nunc. Pellentesque fermentum, ante ac felis consectetur id.<strong> Donec eget orci metus.</strong></p>--> 
+				<ion:page id="agenda">
 
 					<ion:articles limit="5">
 
@@ -270,9 +274,9 @@
 										<div class="flag"><span><ion:text:value /></span></div>
 									</ion:article:static:flag:items>
 
-									<a href="<ion:url />"><h5><ion:title /></h5></a>
+									
 
-									<div class="hide-for-small medium-4 large-4 columns">
+									<div class="pull-left lft-img-margin img-width-120">
 
 										<ion:medias type="picture,video" limit="1">
 
@@ -287,25 +291,24 @@
 											</ion:media:type>
 
 											<ion:media:type is="picture">
-												<img class="pull-left lft-img-margin img-width-200" src="<ion:media:src size='300,200' method='adaptive' />" />
+												<img  src="<ion:media:src size='120,50' method='adaptive' />" />
 											</ion:media:type>
 
 										</ion:medias>
 
 
 									</div>
-
+                                    
+                                    <a href="<ion:url />"><h5><ion:title /></h5></a>
 									<div class="medium-8 large-8 columns">
 										<ion:content paragraph="1" />
 									</div>
-
-								
 						</ion:article>
 					</ion:articles>
 				</ion:page>
                 </div>
             </div><!--/tab-content-->
-
+        
             <!-- Example Blocks  -->
             <div class="row">
                 <div class="col-md-6">
@@ -415,6 +418,11 @@
                 </div>
             </div><!--/row-->
             
+
+            
+
+            
+            
             <!-- Recent Works -->
             <div><h3 class="lined">Kegiatan</h3></div>
             <div class="row margin-bottom-40">
@@ -430,7 +438,7 @@
                         
                         <ion:page id="kegiatan">
 
-                        <ion:articles>
+                        <ion:articles limit="4">
                         
 						<ion:article>                                    
                           <a href="<ion:url />">          
@@ -596,6 +604,15 @@
                     <li class="col-md-3 col-sm-2 col-xs-2"><a href="#"><img class="hover-effect" alt="" src="<ion:theme_url />assets/img/sliders/elastislide/7.jpg"></a></li>
                 </ul>
             </div>
+            
+            <!-- Photo Stream -->
+            <div class="margin-bottom-30">
+            	<div><h3 class="lined">Galeri Foto</h3></div>
+                <ion:partial view="eventcalendar_header" />
+        		<ion:partial view="eventcalendar" />
+            </div>
+            
+            
         </div><!--/col-md-3-->
     </div><!--/row-->
     <!-- //End Container -->
