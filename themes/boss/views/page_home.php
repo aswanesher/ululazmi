@@ -575,10 +575,9 @@
                 <div><h3 class="lined">Kontak kami</h3></div>
                 <p></p>
                 <ul class="list-styled">
-                    <li><a href="#"><i class="icon-envelope"></i>admin@ululazmifoundation.org</a></li>
-                    <li><a href="#"><i class="icon-phone"></i>022-2001234</a></li>
+                    <li><a href="#"><i class="icon-envelope"></i>info@ululazmifoundation.org</a></li>
+                    <li><a href="#"><i class="icon-phone"></i>022-6648425</a></li>
                     <li><a href="#"><i class="icon-globe"></i>http://ululazmifoundation.org/</a></li>
-                    <li><a href="#"><i class="icon-envelope"></i>08572221234</a></li>
                 </ul>
             </div>
 
@@ -606,11 +605,11 @@
             </div>
             
             <!-- Photo Stream -->
-            <div class="margin-bottom-30">
+            <!--<div class="margin-bottom-10">
             	<div><h3 class="lined">Galeri Foto</h3></div>
                 <ion:partial view="eventcalendar_header" />
         		<ion:partial view="eventcalendar" />
-            </div>
+            </div>-->
             
             
         </div><!--/col-md-3-->
