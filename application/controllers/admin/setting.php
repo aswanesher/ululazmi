@@ -462,7 +462,15 @@ class Setting extends MY_admin
 		$lang_settings = array(
 			'meta_keywords',
 			'meta_description',
-			'site_title'
+			'site_title',
+            'no_hp',
+            'no_telp',
+            'pin_bbm',
+            'email',
+            'facebook',
+            'twitter',
+            'gplus',
+            'youtube'
 		);
 
 		// Save settings to DB

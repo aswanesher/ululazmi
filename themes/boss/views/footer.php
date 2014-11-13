@@ -5,37 +5,26 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <!-- Contact Us -->
-                <div><h3>Services</h3></div>
-                <ul class="list-unstyled list-services">
-                    <li><a href="#">SEO and PPC</a></li>
-                    <li><a href="#">Responsive Design</a></li>
-                    <li><a href="#">Social Media Marketing</a></li>
-                    <li><a href="#">Landing Page Optimization</a></li>
-                    <li><a href="#">WordPress Themes Development</a></li>
-                </ul>
+                <div><h3>Sosial Media</h3></div>
+                <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FUlul-Azmi-Foundation%2F186029634776673&amp;width=260&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;height=200" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:260px; height:200px;" allowtransparency="true"></iframe>
             </div>
             <div class="col-md-3 col-sm-6">
                 <!-- Blog Latest Tweets -->
                 <div class="blog-twitter">
-                    <div><h3>Latest Tweets</h3></div>
-                    <p><a href="">@some</a> At vero eos et accusamus et iusto odio dignissimos. <a href="#">http://t.co/sBav7dm</a> <span>5 hours ago</span></p>
-                    <p><a href="">@boss</a> At vero eos et accusamus et iusto odio dignissimos. <a href="#">http://t.co/f58Ddg4</a> <span>8 hours ago</span></p>
+                    <div><h3></h3></div>
+                     <iframe width="260" height="215" src="//www.youtube.com/embed/w3uFb9Lgr_o" frameborder="0" allowfullscreen></iframe>
                  </div>
             </div>
             <div class="clearfix visible-sm"></div>
             <div class="col-md-3 col-sm-6">
                 <!-- Blog Tags -->
-                <div><h3>Blog Tags</h3></div>
+                <div><h3>Kontak Kami</h3></div>
                 <ul class="list-unstyled list-inline blog-tags">
-                    <li><a href="#"><i class="icon-tags"></i> Business</a></li>
-                    <li><a href="#"><i class="icon-tags"></i> Music</a></li>
-                    <li><a href="#"><i class="icon-tags"></i> Internet</a></li>
-                    <li><a href="#"><i class="icon-tags"></i> Money</a></li>
-                    <li><a href="#"><i class="icon-tags"></i> Google</a></li>
-                    <li><a href="#"><i class="icon-tags"></i> TV Shows</a></li>
-                    <li><a href="#"><i class="icon-tags"></i> Education</a></li>
-                    <li><a href="#"><i class="icon-tags"></i> People</a></li>
-                    <li><a href="#"><i class="icon-tags"></i> People</a></li>
+                    <li><a href="#"><i class="icon-envelope"></i>Email : info@ululazmifoundation.org</a></li>
+                    <li><a href="#"><i class="icon-phone"></i>Telpon : 022-6648425</a></li>
+                    <li><a href="#"><i class="icon-globe"></i>Website : http://ululazmifoundation.org/</a></li>
+                    <li><a href="#"><i class="icon-envelope"></i>SMS : 089655550393</a></li>
+                    <li><a href="#"><i class="icon-envelope-alt"></i>BBM : 7D003C05</a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-sm-6">

@@ -575,9 +575,11 @@
                 <div><h3 class="lined">Kontak kami</h3></div>
                 <p></p>
                 <ul class="list-styled">
-                    <li><a href="#"><i class="icon-envelope"></i>info@ululazmifoundation.org</a></li>
-                    <li><a href="#"><i class="icon-phone"></i>022-6648425</a></li>
-                    <li><a href="#"><i class="icon-globe"></i>http://ululazmifoundation.org/</a></li>
+                    <li><a href="#"><i class="icon-envelope"></i><ion:email /></a></li>
+                    <li><a href="#"><i class="icon-phone"></i><ion:no_telp /></a></li>
+                    <li><a href="#"><i class="icon-globe"></i><ion:home_url /></a></li>
+                    <li><a href="#"><i class="icon-envelope"></i>SMS : <ion:no_hp /></a></li>
+                    <li><a href="#"><i class="icon-envelope-alt"></i>BBM : <ion:pin_bbm /></a></li>
                 </ul>
             </div>
 
@@ -590,7 +592,7 @@
             </div>
             
             <!-- Photo Stream -->
-            <div class="margin-bottom-30">
+            <!--<div class="margin-bottom-30">
             	<div><h3 class="lined">Galeri Foto</h3></div>
                 <ul class="list-unstyled blog-ads row">
                     <li class="col-md-3 col-sm-2 col-xs-2"><a href="#"><img class="hover-effect" alt="" src="<ion:theme_url />assets/img/sliders/elastislide/5.jpg"></a></li>
@@ -602,7 +604,7 @@
                     <li class="col-md-3 col-sm-2 col-xs-2"><a href="#"><img class="hover-effect" alt="" src="<ion:theme_url />assets/img/sliders/elastislide/2.jpg"></a></li>
                     <li class="col-md-3 col-sm-2 col-xs-2"><a href="#"><img class="hover-effect" alt="" src="<ion:theme_url />assets/img/sliders/elastislide/7.jpg"></a></li>
                 </ul>
-            </div>
+            </div>-->
             
             <!-- Photo Stream -->
             <!--<div class="margin-bottom-10">

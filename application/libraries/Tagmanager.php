@@ -198,6 +198,14 @@ class TagManager
 		'translation' => 		'tag_lang',					// Alias for <ion:lang />
 		'lang' => 				'tag_lang',
 		'site_title' => 		'tag_site_title',
+        'no_hp' =>              'tag_no_hp',
+        'no_telp' =>              'tag_no_telp',
+        'pin_bbm' =>              'tag_pin_bbm',
+        'email' =>              'tag_email',
+        'facebook' =>              'tag_facebook',
+        'twitter' =>              'tag_twitter',
+        'gplus' =>              'tag_gplus',
+        'youtube' =>              'tag_youtube',
 		'meta_title' => 		'tag_meta_title',
 		'meta_keywords' => 		'tag_meta_keywords',
 		'meta_description' => 	'tag_meta_description',
@@ -524,6 +532,30 @@ class TagManager
 	{
 		// Global settings
 		self::$context->set_global('site_title', Settings::get('site_title'));
+        
+        // Global settings
+		self::$context->set_global('no_hp', Settings::get('no_hp'));
+        
+        // Global settings
+		self::$context->set_global('no_telp', Settings::get('no_telp'));
+        
+        // Global settings
+		self::$context->set_global('pin_bbm', Settings::get('pin_bbm'));
+        
+        // Global settings
+		self::$context->set_global('email', Settings::get('email'));
+        
+        // Global settings
+		self::$context->set_global('facebook', Settings::get('facebook'));
+        
+        // Global settings
+		self::$context->set_global('twitter', Settings::get('twitter'));
+
+        // Global settings
+		self::$context->set_global('gplus', Settings::get('gplus'));
+        
+        // Global settings
+		self::$context->set_global('youtube', Settings::get('youtube'));
 
 		// Theme
 		self::$context->set_global('theme', Theme::get_theme());
@@ -2569,7 +2601,94 @@ class TagManager
 	{
 		return self::wrap($tag, Settings::get('site_title'));
 	}
+    
+    /**
+	 * Returns the website title
+	 *
+	 * @param  FTL_Binding
+	 * @return string
+	 */
+	public static function tag_no_hp(FTL_Binding $tag)
+	{
+		return self::wrap($tag, Settings::get('no_hp'));
+	}
+    
+    /**
+	 * Returns the website title
+	 *
+	 * @param  FTL_Binding
+	 * @return string
+	 */
+	public static function tag_no_telp(FTL_Binding $tag)
+	{
+		return self::wrap($tag, Settings::get('no_telp'));
+	}
+    
+    /**
+	 * Returns the website title
+	 *
+	 * @param  FTL_Binding
+	 * @return string
+	 */
+	public static function tag_pin_bbm(FTL_Binding $tag)
+	{
+		return self::wrap($tag, Settings::get('pin_bbm'));
+	}
+    
+    /**
+	 * Returns the website title
+	 *
+	 * @param  FTL_Binding
+	 * @return string
+	 */
+	public static function tag_email(FTL_Binding $tag)
+	{
+		return self::wrap($tag, Settings::get('email'));
+	}
+    
+    /**
+	 * Returns the website title
+	 *
+	 * @param  FTL_Binding
+	 * @return string
+	 */
+	public static function tag_facebook(FTL_Binding $tag)
+	{
+		return self::wrap($tag, Settings::get('facebook'));
+	}
 
+    /**
+	 * Returns the website title
+	 *
+	 * @param  FTL_Binding
+	 * @return string
+	 */
+	public static function tag_twitter(FTL_Binding $tag)
+	{
+		return self::wrap($tag, Settings::get('twitter'));
+	}
+    
+    /**
+	 * Returns the website title
+	 *
+	 * @param  FTL_Binding
+	 * @return string
+	 */
+	public static function tag_gplus(FTL_Binding $tag)
+	{
+		return self::wrap($tag, Settings::get('gplus'));
+	}
+    
+    /**
+	 * Returns the website title
+	 *
+	 * @param  FTL_Binding
+	 * @return string
+	 */
+	public static function tag_youtube(FTL_Binding $tag)
+	{
+		return self::wrap($tag, Settings::get('youtube'));
+	}
 
 	// ------------------------------------------------------------------------
 

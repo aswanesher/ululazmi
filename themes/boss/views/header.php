@@ -4,7 +4,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title><ion:meta_title /> | <ion:site_title /></title>
+    <title><ion:meta_title /> | <ion:site_title /> </title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -64,7 +64,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 col-sm-6 contact">
-                Call us: 022-6648425 | E-mail: info@ululazmifoundation.org
+                Call us: <ion:no_telp /> | E-mail: <ion:email />
             </div>
             <div class="col-md-7 col-sm-6 col-xs-12 submenu">
                 
@@ -73,19 +73,13 @@
                         <a href="#"><i class="icon-rss"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="icon-facebook"></i></a>
+                        <a href="<ion:facebook />"><i class="icon-facebook"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="icon-twitter"></i></a>
+                        <a href="<ion:twitter />"><i class="icon-twitter"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="icon-google-plus"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="icon-pinterest"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="icon-linkedin"></i></a>
+                        <a href="<ion:gplus />"><i class="icon-google-plus"></i></a>
                     </li>
                 </ul>
             </div>

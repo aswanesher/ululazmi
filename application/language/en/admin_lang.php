@@ -553,6 +553,14 @@ $lang['ionize_message_write_an_email_to_this_user'] = "Write an Email to this us
 |--------------------------------------------------------------------------
 */
 $lang['ionize_label_site_title'] = 'Website title';
+$lang['ionize_label_no_hp'] = 'Cell Phone';
+$lang['ionize_label_no_telp'] = 'Phone Number';
+$lang['ionize_label_pin_bbm'] = 'BBM Pin';
+$lang['ionize_label_email'] = 'Email Address';
+$lang['ionize_label_facebook'] = 'Facebook Page URL';
+$lang['ionize_label_twitter'] = 'Twitter Page URL';
+$lang['ionize_label_gplus'] = 'Google+ URL';
+$lang['ionize_label_youtube'] = 'Youtube URL';
 $lang['ionize_message_settings_saved'] = 'Settings saved';
 $lang['ionize_title_visual_help'] = 'Visual help';
 $lang['ionize_title_backend_ui'] = 'Backend UI';

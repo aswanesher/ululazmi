@@ -25,6 +25,7 @@
                     <li><ion:date format="complete" tag="p" class="date"/></li>
                     <li>
                     <ion:article:writer who="updater">
+                    <ion:article:authors />
                     <ion:firstname /> <ion:lastname />
                     </ion:article:writer>
                     </li>

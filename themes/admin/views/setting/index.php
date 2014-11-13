@@ -48,6 +48,8 @@
 								<input name="site_title_<?php echo $language['lang']; ?>" id="site_title_<?php echo $language['lang']; ?>" class="inputtext w360" type="text" value="<?php echo Settings::get('site_title', $language['lang']); ?>"/>
 							</dd>
 						</dl>
+                        
+                        
 		
 						<dl>
 							<dt>
@@ -64,6 +66,85 @@
 							</dt>
 							<dd>
 								<textarea name="meta_keywords_<?php echo $language['lang']; ?>" id="meta_keywords_<?php echo $language['lang']; ?>" class="w360 h60"><?php echo Settings::get('meta_keywords', $language['lang']); ?></textarea>
+							</dd>
+						</dl>
+                        
+                        <hr />
+                        <br />
+                        
+                        <dl>
+							<dt>
+								<label for="no_telp_<?php echo $language['lang']; ?>"><?php echo lang('ionize_label_no_telp'); ?></label>
+							</dt>
+							<dd>
+								<input name="no_telp_<?php echo $language['lang']; ?>" id="no_telp_<?php echo $language['lang']; ?>" class="inputtext w360" type="text" value="<?php echo Settings::get('no_telp', $language['lang']); ?>"/>
+							</dd>
+						</dl>
+                        
+                        <dl>
+							<dt>
+								<label for="no_hp_<?php echo $language['lang']; ?>"><?php echo lang('ionize_label_no_hp'); ?></label>
+							</dt>
+							<dd>
+								<input name="no_hp_<?php echo $language['lang']; ?>" id="no_hp_<?php echo $language['lang']; ?>" class="inputtext w360" type="text" value="<?php echo Settings::get('no_hp', $language['lang']); ?>"/>
+							</dd>
+						</dl>
+                        
+                        <dl>
+							<dt>
+								<label for="pin_bbm_<?php echo $language['lang']; ?>"><?php echo lang('ionize_label_pin_bbm'); ?></label>
+							</dt>
+							<dd>
+								<input name="pin_bbm_<?php echo $language['lang']; ?>" id="pin_bbm_<?php echo $language['lang']; ?>" class="inputtext w360" type="text" value="<?php echo Settings::get('pin_bbm', $language['lang']); ?>"/>
+							</dd>
+						</dl>
+                        
+                        <dl>
+							<dt>
+								<label for="email_<?php echo $language['lang']; ?>"><?php echo lang('ionize_label_email'); ?></label>
+							</dt>
+							<dd>
+								<input name="email_<?php echo $language['lang']; ?>" id="email_<?php echo $language['lang']; ?>" class="inputtext w360" type="text" value="<?php echo Settings::get('email', $language['lang']); ?>"/>
+							</dd>
+						</dl>
+                        
+                        <br />
+                        <hr />
+                        <br />
+                        
+                        <dl>
+							<dt>
+								<label for="facebook_<?php echo $language['lang']; ?>"><?php echo lang('ionize_label_facebook'); ?></label>
+							</dt>
+							<dd>
+								<input name="facebook_<?php echo $language['lang']; ?>" id="facebook_<?php echo $language['lang']; ?>" class="inputtext w360" type="text" value="<?php echo Settings::get('facebook', $language['lang']); ?>"/>
+							</dd>
+						</dl>
+                        
+                        <dl>
+							<dt>
+								<label for="twitter_<?php echo $language['lang']; ?>"><?php echo lang('ionize_label_twitter'); ?></label>
+							</dt>
+							<dd>
+								<input name="twitter_<?php echo $language['lang']; ?>" id="twitter_<?php echo $language['lang']; ?>" class="inputtext w360" type="text" value="<?php echo Settings::get('twitter', $language['lang']); ?>"/>
+							</dd>
+						</dl>
+                        
+                        <dl>
+							<dt>
+								<label for="gplus_<?php echo $language['lang']; ?>"><?php echo lang('ionize_label_gplus'); ?></label>
+							</dt>
+							<dd>
+								<input name="gplus_<?php echo $language['lang']; ?>" id="gplus_<?php echo $language['lang']; ?>" class="inputtext w360" type="text" value="<?php echo Settings::get('gplus', $language['lang']); ?>"/>
+							</dd>
+						</dl>
+                        
+                        <dl>
+							<dt>
+								<label for="youtube_<?php echo $language['lang']; ?>"><?php echo lang('ionize_label_youtube'); ?></label>
+							</dt>
+							<dd>
+								<input name="youtube_<?php echo $language['lang']; ?>" id="youtube_<?php echo $language['lang']; ?>" class="inputtext w360" type="text" value="<?php echo Settings::get('youtube', $language['lang']); ?>"/>
 							</dd>
 						</dl>
 		

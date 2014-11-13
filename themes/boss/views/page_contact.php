@@ -37,12 +37,11 @@
                 <div class="col-md-4 col-sm-4">
                     <section><!-- Why we are? -->
                         <i class="icon-info"></i>
-                        <h5>Why we are?</h5>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+                        <h5>Kontak Kami</h5>
                         <ul class="list-unstyled">
-                            <li><i class="icon-ok"></i> Odio dignissimos ducimus</li>
-                            <li><i class="icon-ok"></i> Blanditiis praesentium volup</li>
-                            <li><i class="icon-ok"></i> Eos et accusamus</li>
+                            <li><i class="icon-ok"></i> Telpon : <ion:no_telp /></li>
+                            <li><i class="icon-ok"></i> SMS : <ion:no_hp /></li>
+                            <li><i class="icon-ok"></i> BBM : <ion:pin_bbm /></li>
                         </ul>
                     </section>
                 </div>
@@ -77,31 +76,38 @@
 		</ion:form:contact:validation:error>
             
             <form method="post" action="">
-            
-            <!-- The form name must be set so the tags identify it -->
-			<input type="hidden" name="form" value="contact" />
-            
+                <input type="hidden" name="form" value="contact" />
                 <fieldset>
                     <div class="row">
-                        <div class="col-md-6 col-sm-6">
+                        <div class="col-md-4 col-sm-4">
                             <div class="form-group">
                                 <i class="icon-user"></i>
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Name"/>
+                                <input name="name" type="text" id="name" placeholder="<ion:lang key="form_label_name" />" class="form-control" value="<ion:form:contact:field:name />"<ion:form:contact:error:name is="true"> class="error" </ion:form:contact:error:name>/>
+                                <ion:form:contact:error:name tag="small" class="error" />
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6">
+                        <div class="col-md-4 col-sm-4">
                             <div class="form-group">
                                 <i class="icon-envelope-alt"></i>
-                                <input type="text" class="form-control" placeholder="Email (required)" />
+                        <input name="email" type="text" id="email" class="form-control" placeholder="<ion:lang key="form_label_email" />" value="<ion:form:contact:field:email />"<ion:form:contact:error:email is="true"> class="error" </ion:form:contact:error:email> />
+			<ion:form:contact:error:email tag="small" class="error" />
+                            </div>
+                        </div>
+                           <div class="col-md-4 col-sm-4">
+                            <div class="form-group">
+                                <i class="icon-envelope-alt"></i>
+			<input name="topic" type="text" id="topic" class="form-control" placeholder="<ion:lang key="form_label_topic" />"value="<ion:form:contact:field:topic />"<ion:form:contact:error:topic is="true"> class="error" </ion:form:contact:error:topic> />
+			<ion:form:contact:error:topic tag="small" class="error" />
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <i class="icon-terminal"></i>
-                        <textarea rows="8" class="form-control" placeholder="Message"></textarea>
+                        <textarea name="message" id="message" rows="7" class="form-control" placeholder="<ion:lang key="form_label_message" />"<ion:form:contact:error:message is="true"> class="error" </ion:form:contact:error:message>><ion:form:contact:field:message /></textarea>
+			<ion:form:contact:error:message tag="small" class="error" />
                     </div>
                     <div class="form-group">
-                        <p><button type="submit" class="btn btn-m btn-m-aqua">Kirim..</button></p>
+                        <p><button type="submit" class="btn btn-m btn-m-aqua"><ion:lang key="form_button_send" /></button></p>
                     </div>
                 </fieldset>
             </form>
